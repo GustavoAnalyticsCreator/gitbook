@@ -9,7 +9,7 @@
 ## Launching AnalyticsCreator
 
 * [Launching AnalyticsCreator](launching-analyticscreator/editor/README.md)
-  * [Page 1](launching-analyticscreator/editor/page-1.md)
+  * [AnalyticsCreator Interface](launching-analyticscreator/editor/analyticscreator-interface.md)
 
 ## Tutorials
 
