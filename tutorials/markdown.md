@@ -1,10 +1,11 @@
 ---
 icon: markdown
+noIndex: true
 layout:
   title:
-    visible: false
+    visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: true
   outline:
@@ -70,13 +71,18 @@ You can download the script directly from the following URL or run it using the 
 Alternatively, you can copy all the contents from the [URL above](https://raw.githubusercontent.com/microsoft/sql-server-samples/refs/heads/master/samples/databases/northwind-pubs/instnwnd%20\(Azure%20SQL%20Database\).sql) and paste them into a new query in SSMS. Once pasted, run the query to create the Northwind database and populate it with the necessary tables.
 
 **Step 3: Verify the Database**\
-Once the script has been executed, verify that the Northwind database has been created and contains the necessary tables. You can do this by running the following query in SQL Server Management Studio (SSMS):\
-`USE Northwind;`\
-`GO`\
-`SELECT *`\
-`FROM INFORMATION_SCHEMA.TABLES`\
-`WHERE TABLE_SCHEMA = 'dbo'`\
-`AND TABLE_TYPE = 'BASE TABLE';`\
+Once the script has been executed, verify that the Northwind database has been created and contains the necessary tables. You can do this by running the following query in SQL Server Management Studio (SSMS):
+
+```sql
+USE Northwind;
+GO
+SELECT *
+FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_SCHEMA = 'dbo'
+AND TABLE_TYPE = 'BASE TABLE';
+```
+
+\
 \
 This will list all the tables in the Northwind database. Ensure the essential tables (such as Customers, Orders, Products, etc.) are present.
 

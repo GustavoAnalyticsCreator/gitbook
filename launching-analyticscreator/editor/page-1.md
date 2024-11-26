@@ -1,9 +1,10 @@
 ---
+noIndex: true
 layout:
   title:
-    visible: false
+    visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: true
   outline:

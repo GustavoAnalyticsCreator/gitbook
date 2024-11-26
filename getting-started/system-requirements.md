@@ -1,11 +1,12 @@
 ---
-description: The Analytics Creator Installation
 icon: bullseye-arrow
+description: The Analytics Creator Installation
+noIndex: true
 layout:
   title:
-    visible: false
+    visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: true
   outline:
