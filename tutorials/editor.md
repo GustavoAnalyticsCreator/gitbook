@@ -20,5 +20,5 @@ layout:
 
 To become familiar with AnalyticsCreator, we have made certain data sets available. You may use these to test AnalyticsCreator:
 
-Click here for the [Northwind Data](https://www.analyticscreator.com/-temporary-slug-39acb5b6-d839-4a49-950e-03a7f7e4bfc7?hs_preview=gYzZjRyf-182708075102#Step-by-step-sql-server-project)
+Click here for the [Northwind Data](markdown.md)
 

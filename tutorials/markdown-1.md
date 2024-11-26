@@ -1,9 +1,8 @@
 ---
-icon: markdown
 description: >-
-  The Northwind Database is a sample database originally developed by Microsoft.
-  It simulates a fictional trading company called "Northwind Traders," providing
-  a comprehensive schema.
+  The Adventure Works database is a sample database originally developed by
+  Microsoft. It simulates a fictional company, providing a comprehensive schema
+  for business operations and processes.
 noIndex: true
 layout:
   title:
@@ -18,9 +17,9 @@ layout:
     visible: true
 ---
 
-# Northwind Data Warehouse
+# Adventure Works Data Warehouse
 
-### Step by step SQL Server Northwind Project
+### In this project we will create a step-by-step&#x20;
 
 ### Create your first Datawarehouse with AnalyticsCreator&#x20;
 

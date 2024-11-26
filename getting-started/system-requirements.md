@@ -23,7 +23,7 @@ To ensure optimal performance, verify that the following requirements are met:
 
 {% hint style="info" %}
 If you already have SQL Server installed and accessible, you can proceed directly to the\
-&#x20;[Launching AnalyticsCreator](https://www.analyticscreator.com/-temporary-slug-39acb5b6-d839-4a49-950e-03a7f7e4bfc7?hs_preview=gYzZjRyf-182708075102#launch-AC) section.
+&#x20;[Launching AnalyticsCreator](broken-reference) section.
 {% endhint %}
 
 * **Operating System:** Windows 10 or later.\
