@@ -1,38 +1,23 @@
 ---
 icon: pen-to-square
+layout:
+  title:
+    visible: false
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Create your first DWH
 
-GitBook has a powerful block-based editor that allows you to seamlessly create, update, and enhance your content.
+## Create your first DWH
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/editor-hero.png" alt=""><figcaption></figcaption></figure>
+To become familiar with AnalyticsCreator, we have made certain data sets available. You may use these to test AnalyticsCreator:
 
-### Writing content
-
-GitBook offers a range of block types for you to add to your content inline — from simple text and tables, to code blocks and more. These elements will make your pages more useful to readers, and offer extra information and context.
-
-Either start typing below, or press `/` to see a list of the blocks you can insert into your page.
-
-### Add a new block
-
-{% stepper %}
-{% step %}
-### Open the insert block menu
-
-Press `/` on your keyboard to open the insert block menu.
-{% endstep %}
-
-{% step %}
-### Search for the block you need&#x20;
-
-Try searching for “Stepper”, for exampe, to insert the stepper block.
-{% endstep %}
-
-{% step %}
-### Insert and edit your block
-
-Click or press Enter to insert your block. From here, you’ll be able to edit it as needed.
-{% endstep %}
-{% endstepper %}
+Click here for the [Northwind Data](https://www.analyticscreator.com/-temporary-slug-39acb5b6-d839-4a49-950e-03a7f7e4bfc7?hs_preview=gYzZjRyf-182708075102#Step-by-step-sql-server-project)
 

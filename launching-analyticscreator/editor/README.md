@@ -1,0 +1,37 @@
+---
+icon: pen-to-square
+layout:
+  title:
+    visible: false
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
+# Launching AnalyticsCreator
+
+## Launching AnalyticsCreator
+
+### **After confirming your SQL Server connection, go back to the downloaded AnalyticsCreator installer**
+
+Instead of selecting "Install," click "Launch" **(highlighted as "Number One" in the image below)**.&#x20;
+
+This action will open a window displaying the AnalyticsCreator Servers, which will transmit the latest version of AnalyticsCreator to your system.
+
+<figure><img src="https://www.analyticscreator.com/hs-fs/hubfs/Canva%20images/Download%20Page%20AnalyticsCreator.png?width=1920&#x26;height=1080&#x26;name=Download%20Page%20AnalyticsCreator.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**Note:** This process launches AnalyticsCreator without performing a full installation, assuming all necessary prerequisites are already in place.
+{% endhint %}
+
+
+
+{% embed url="https://www.analyticscreator.com/hubfs/Downloading%20Analytics%20Creator.mp4" %}
+
+
+

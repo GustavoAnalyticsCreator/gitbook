@@ -8,8 +8,8 @@
 
 ## Launching AnalyticsCreator
 
-* [Launching AnalyticsCreator](launching-analyticscreator/editor.md)
-* [Markdown](launching-analyticscreator/markdown.md)
+* [Launching AnalyticsCreator](launching-analyticscreator/editor/README.md)
+  * [Page 1](launching-analyticscreator/editor/page-1.md)
 
 ## Tutorials
 
