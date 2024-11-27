@@ -21,6 +21,10 @@ layout:
 
 ### Installing AnalyticsCreator
 
+#### <mark style="background-color:orange;">### Provide two alternatives to install 32 and 64 ###</mark>
+
+
+
 This guide provides step-by-step instructions for installing AnalyticsCreator on your system.
 
 To ensure optimal performance, verify that the following requirements are met:

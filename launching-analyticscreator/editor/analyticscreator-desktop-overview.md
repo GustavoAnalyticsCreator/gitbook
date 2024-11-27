@@ -21,7 +21,7 @@ layout:
 
 ### With AnalyticsCreator Desktop users can:
 
-#### <mark style="background-color:orange;">### ASK Richard and AC Team for suggetsions ###</mark>
+#### <mark style="background-color:orange;">### ASK Richard and AC Team for suggestions ###</mark>
 
 1. Add connections to data sources and import metadata to AnalyticsCreator
 2. Describe data assets (tables, columns, etc.)

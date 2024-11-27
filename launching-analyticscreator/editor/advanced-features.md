@@ -21,14 +21,18 @@ layout:
 
 Edit mode and saving - Object editor
 
-1. Add connections to data sources and import metadata to AnalyticsCreator
-2. Describe data assets (tables, columns, etc.)
-3. Complement data model in the repository with manual primary/unique keys and relationships
-4. Add manual columns and tables
-5. Add metrics
-6. Create automatically Data Historization
-7. Create Fact Tables
-8. Create Dimensions
+1. Scripts
+   1. Pre-creation
+   2. Pre-deployment
+   3. Post-deployment
+   4. Pre-workflow
+   5. Pre-workflow
+   6. Repository extension script
+2. Historization
+   1. SCD
+   2. Time Dimensions
+   3. Snapshots
+3.
 
 
 

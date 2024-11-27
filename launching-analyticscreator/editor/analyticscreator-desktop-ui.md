@@ -23,7 +23,7 @@ AnalyticsCreator Desktop user interface consists of three main elements:
 
 1. **Ribbon** that provides options for current view and selected element
 2. **Repository explorer** that enables navigation of repository
-3. **Forms** that display details of element selected in repository explorer
+3. **Work Area** that's display details of the selected feature in repository explorer
 
 #### <mark style="background-color:orange;">### Create a nerw desing in canvas ###</mark>
 
