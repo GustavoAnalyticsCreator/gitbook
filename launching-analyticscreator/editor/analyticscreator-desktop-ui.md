@@ -22,12 +22,10 @@ layout:
 AnalyticsCreator Desktop user interface consists of three main elements:
 
 1. **Ribbon** that provides options for current view and selected element
-2. **Repository explorer** that enables navigation of repository
+2. **Data Warehouse(DWH) explorer** that enables navigation of repository
 3. **Work Area** that's display details of the selected feature in repository explorer
 
-#### <mark style="background-color:orange;">### Create a nerw desing in canvas ###</mark>
-
-{% embed url="https://cdn2.hubspot.net/hub/7543628/hubfs/image-png-2.png?height=952&name=image-png-2.png&width=1903" %}
+{% embed url="https://www.canva.com/design/DAGXgnaC6Xg/Gf6kiFMUypUbQz7NxtR6AQ/view?utm_campaign=designshare&utm_content=DAGXgnaC6Xg&utm_medium=link&utm_source=editor" %}
 
 
 
