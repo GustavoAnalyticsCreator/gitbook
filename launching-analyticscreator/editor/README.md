@@ -5,7 +5,7 @@ layout:
   title:
     visible: true
   description:
-    visible: true
+    visible: false
   tableOfContents:
     visible: true
   outline:
@@ -27,7 +27,7 @@ This action will open a window displaying the AnalyticsCreator Servers, which wi
 <figure><img src="https://www.analyticscreator.com/hs-fs/hubfs/Canva%20images/Download%20Page%20AnalyticsCreator.png?width=1920&#x26;height=1080&#x26;name=Download%20Page%20AnalyticsCreator.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Note:** This process launches AnalyticsCreator without performing a full installation, assuming all necessary prerequisites are already in place.
+This process launches AnalyticsCreator without performing a full installation, assuming all necessary prerequisites are already in place.
 {% endhint %}
 
 

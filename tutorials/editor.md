@@ -20,5 +20,7 @@ layout:
 
 To become familiar with AnalyticsCreator, we have made certain data sets available. You may use these to test AnalyticsCreator:
 
-Click here for the [Northwind Data](markdown.md)
+Click here for the [Northwind Data Warehouse](markdown.md)\
+\
+Click here for the Adventure Works Data
 

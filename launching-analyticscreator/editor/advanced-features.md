@@ -1,14 +1,10 @@
 ---
-description: >-
-  The AnalyticsCreator interface provides a straightforward layout to help you
-  navigate and configure your Data Ware projects efficiently. Below is an
-  overview of its main components for quick reference
 noIndex: true
 layout:
   title:
     visible: true
   description:
-    visible: true
+    visible: false
   tableOfContents:
     visible: true
   outline:
@@ -19,7 +15,69 @@ layout:
 
 # Advanced Features
 
-**Scripts**
+AnalyticsCreator provides a rich set of advanced features to help you configure, customize, and optimize your data warehouse projects. These features extend the tool’s capabilities beyond standard operations, enabling more precise control and flexibility.
+
+***
+
+#### **Scripts**
+
+Scripts in AnalyticsCreator allow for detailed customization at various stages of data warehouse creation and deployment. They enhance workflow flexibility and enable advanced repository configurations.
+
+**Types of Scripts**
+
+1. **Object-Specific Scripts**
+   * Define custom behavior for individual objects, such as tables or transformations, to meet specific requirements.
+2. **Pre-Creation Scripts**
+   * Execute tasks prior to creating database objects.
+   * Example: Define SQL functions to be used in transformations.
+3. **Pre-Deployment Scripts**
+   * Configure processes that run before deploying the project.
+   * Example: Validate dependencies or prepare the target environment.
+4. **Post-Deployment Scripts**
+   * Handle actions executed after deployment is complete.
+   * Example: Perform cleanup tasks or execute stored procedures.
+5. **Pre-Workflow Scripts**
+   * Manage operations that occur before initiating an ETL workflow.
+   * Example: Configure variables or initialize staging environments.
+6. **Repository Extension Scripts**
+   * Extend repository functionality with user-defined scripts.
+   * Example: Add custom logic to redefine AnalyticsCreator repository objects.
+
+***
+
+#### **Historization**
+
+The historization features in AnalyticsCreator enable robust tracking and analysis of historical data changes, supporting advanced time-based reporting and auditing.
+
+**Key Components**
+
+1. **Slowly Changing Dimensions (SCD)**
+   * Automate the management of changes in dimension data.
+   * Supports various SCD types, including Type 1 (overwrite), Type 2 (versioning), and more.
+2. **Time Dimensions**
+   * Create and manage temporal structures to facilitate time-based analysis.
+   * Example: Build fiscal calendars or weekly rollups for time-series analytics.
+3. **Snapshots**
+   * Capture and preserve specific states of the data warehouse.
+   * Use cases: Audit trails, historical reporting, and rollback points.
+
+***
+
+#### **Parameters and Macros**
+
+These tools provide centralized control and reusable logic to optimize workflows and streamline repetitive tasks.
+
+**Parameters**
+
+* **Dynamic Management**: Centralize variable definitions for consistent use across scripts, transformations, and workflows.
+* **Reusable Configurations**: Update values in one place to apply changes globally.
+* **Use Cases**: Set default values for connection strings, table prefixes, or date ranges.
+
+**Macros**
+
+* **Reusable Logic**: Create parameterized scripts for tasks that need to be repeated across different projects or workflows.
+* **Streamlined Processes**: Use macros to enforce consistent logic in transformations and custom calculations.
+* **Example**: Define a macro to calculate age based on a birthdate and reference it across transformations.
 
 Scripts in AnalyticsCreator enable precise customization for various stages of the data warehouse creation and deployment process. They provide flexibility to tailor workflows and extend repository functionality:
 
