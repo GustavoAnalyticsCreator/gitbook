@@ -19,13 +19,9 @@ layout:
 
 ## The Analytics Creator Installation
 
-### Installing AnalyticsCreator
+### Installing AnalyticsCreator: : 32-bit and 64-bit Versions
 
-#### <mark style="background-color:orange;">### Provide two alternatives to install 32 and 64 ###</mark>
+This guide offers step-by-step instructions for installing either the 32-bit or 64-bit version of AnalyticsCreator, depending on your system requirements.
 
-
-
-This guide provides step-by-step instructions for installing AnalyticsCreator on your system.
-
-To ensure optimal performance, verify that the following requirements are met:
+**To ensure optimal performance, verify that your system meets the following prerequisites before installation.**
 

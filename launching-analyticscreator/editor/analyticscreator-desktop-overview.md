@@ -21,20 +21,34 @@ layout:
 
 ### With AnalyticsCreator Desktop users can:
 
-#### <mark style="background-color:orange;">### ASK Richard and AC Team for suggestions ###</mark>
+1. **Data Warehouse Creation**\
+   Automatically generate and structure your data warehouse, including fact tables and dimensions.
+2. **Connectors**\
+   Add connections to various data sources and import metadata seamlessly.
+3. **Layer Management**\
+   Define and manage layers such as staging, persisted staging, core, and datamart layers.
+4. **Package Generation**\
+   Generate integration packages for SSIS (SQL Server Integration Services) and ADF (Azure Data Factory).
+5. **Indexes and Partitions**\
+   Automatically configure indexes and partitions for optimized performance.
+6. **Roles and Security**\
+   Manage roles and permissions to ensure secure access to your data.
+7. **Galaxies and Hierarchies**\
+   Organize data across galaxies and define hierarchies for better data representation.
+8. **Customizations**\
+   Configure parameters, macros, scripts, and object-specific scripts for tailored solutions.
+9. **Filters and Predefined Transformations**\
+   Apply advanced filters and transformations for data preparation and enrichment.
+10. **Snapshots and Versioning**\
+    Create snapshots to track and manage changes in your data warehouse.
+11. **Deployments**\
+    Deploy your projects with flexible configurations, supporting on-premises and cloud solutions.
+12. **Groups and Models**\
+    Organize objects into groups and manage models for streamlined workflows.
+13. **Data Historization**\
+    Automate the process of creating historical data models for auditing and analysis.
 
-1. Add connections to data sources and import metadata to AnalyticsCreator
-2. Describe data assets (tables, columns, etc.)
-3. Complement data model in the repository with manual primary/unique keys and relationships
-4. Add manual columns and tables
-5. Add metrics
-6. Create automatically Data Historization
-7. Create Fact Tables
-8. Create Dimensions
-
-#### <mark style="background-color:orange;">### Create a nerw desing in canvas ###</mark>
-
-{% embed url="https://cdn2.hubspot.net/hub/7543628/hubfs/image-png-2.png?height=952&name=image-png-2.png&width=1903" %}
+This list consolidates the core features while emphasizing the flexibility and power of AnalyticsCreator in building comprehensive data warehouse solutions.
 
 
 

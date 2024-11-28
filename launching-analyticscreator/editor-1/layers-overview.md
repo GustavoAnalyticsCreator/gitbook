@@ -14,7 +14,7 @@ layout:
     visible: true
 ---
 
-# Layers
+# Layers overview
 
 AnalyticsCreator empowers users to define and customize layers within their Data Warehouse projects, offering flexibility to align with popular methodologies and architectures. Layers serve as the foundation for organizing and transforming data throughout its lifecycle, from raw ingestion to final reporting and analytics.
 

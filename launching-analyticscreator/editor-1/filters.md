@@ -1,10 +1,11 @@
 ---
 noIndex: true
+icon: question
 layout:
   title:
     visible: true
   description:
-    visible: true
+    visible: false
   tableOfContents:
     visible: true
   outline:
@@ -14,6 +15,4 @@ layout:
 ---
 
 # Filters
-
-###
 

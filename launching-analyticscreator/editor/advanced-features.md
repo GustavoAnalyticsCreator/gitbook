@@ -19,23 +19,33 @@ layout:
 
 # Advanced Features
 
-Edit mode and saving - Object editor
+**Scripts**
 
-1. Scripts
-   1. Pre-creation
-   2. Pre-deployment
-   3. Post-deployment
-   4. Pre-workflow
-   5. Pre-workflow
-   6. Repository extension script
-2. Historization
-   1. SCD
-   2. Time Dimensions
-   3. Snapshots
-3.
+Scripts in AnalyticsCreator enable precise customization for various stages of the data warehouse creation and deployment process. They provide flexibility to tailor workflows and extend repository functionality:
+
+* **Object-Specific Scripts**: Define custom behavior for individual objects to meet specific requirements.
+* **Pre-Creation Scripts**: Execute tasks before the creation of database objects.
+* **Pre-Deployment Scripts**: Configure processes that run prior to deploying your project.
+* **Post-Deployment Scripts**: Handle actions executed after deployment is complete.
+* **Pre-Workflow Scripts**: Manage operations that occur before initiating workflows.
+* **Repository Extension Scripts**: Extend repository capabilities with user-defined scripts for advanced customization.
+
+**Historization**
+
+Historization features in AnalyticsCreator help maintain and track changes in your data warehouse over time, enabling robust historical data analysis:
+
+* **Slowly Changing Dimensions (SCD)**: Automate the management of changes in dimension data with support for various SCD types.
+* **Time Dimensions**: Define and manage temporal structures to facilitate time-based analytics.
+* **Snapshots**: Capture and preserve specific states of your data warehouse for auditing, reporting, or rollback purposes.
+
+**Parameters and Macros**
+
+Enhance flexibility and reusability across your projects:
+
+* **Parameters**: Centralize and dynamically manage variables used across scripts and workflows.
+* **Macros**: Create reusable logic to streamline repetitive tasks and ensure consistency.
+
+These features provide a powerful set of tools to customize, optimize, and manage your data warehouse with precision and efficiency.
 
 
 
-
-
-###
