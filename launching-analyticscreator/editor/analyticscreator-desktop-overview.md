@@ -4,6 +4,7 @@ description: >-
   navigate and configure your Data Ware projects efficiently. Below is an
   overview of its main components for quick reference
 noIndex: true
+icon: desktop
 layout:
   title:
     visible: true

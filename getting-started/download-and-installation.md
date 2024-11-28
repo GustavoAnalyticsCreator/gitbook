@@ -27,7 +27,7 @@ layout:
    1. Connecting to SQL Server: \
       To ensure successful connectivity:
    2. Use **SQL Server Management Studio (SSMS)**, a tool for managing and configuring SQL Server.
-   3. If SSMS is not installed on your system, download it from the official Microsoft site: [Download SQL Server Management Studio (SSMS).](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?)
+   3. If SSMS is not installed on your system, download it from the official Microsoft site:                    [Download SQL Server Management Studio (SSMS).](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?)
 4. I**nstall the software** \
-   Once connectivity is confirmed, run the downloaded installer and follow the instructions bellow to complete the installation.
+   Once connectivity is confirmed, follow the instructions bellow to complete the installation.
 
