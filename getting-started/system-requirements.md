@@ -24,8 +24,17 @@ If you already have SQL Server installed and accessible, you can proceed directl
 &#x20;[Launching AnalyticsCreator section.](../launching-analyticscreator/editor/)
 {% endhint %}
 
+
+
+* **Networking:**
+  * **Communication over Port 443 is where analytics communicates to the sAnalyticsCreator server.**
 * **Operating System:** Windows 10 or later.\
   &#x20;_AnalyticsCreator is compatible with Windows operating systems starting from version 10._
+
+{% hint style="warning" %}
+Port 443 is the **standard HTTPS port for secured transactions.** It is used for data transfers and ensures that data exchanged between a web browser and websites remains encrypted and protected from unauthorized access
+{% endhint %}
+
 * **Microsoft SQL Server:**&#x20;
   * **Azure SQL:** &#x20;
     * Serverless, Provisioned

@@ -1,6 +1,6 @@
 ---
-noIndex: true
 icon: layer-group
+noIndex: true
 layout:
   title:
     visible: true
@@ -14,7 +14,7 @@ layout:
     visible: true
 ---
 
-# Layers overview
+# Layers detailed
 
 AnalyticsCreator empowers users to define and customize layers within their Data Warehouse projects, offering flexibility to align with popular methodologies and architectures. Layers serve as the foundation for organizing and transforming data throughout its lifecycle, from raw ingestion to final reporting and analytics.
 
@@ -43,6 +43,12 @@ AnalyticsCreator empowers users to define and customize layers within their Data
   * **Information Mart**: Data structured for specific reporting needs.
 * Supports agile development with a focus on historical tracking and auditability.
 
+#### &#x34;**. Mixed modeling**
+
+
+
+<mark style="background-color:orange;">Include mixed model --> check</mark>&#x20;
+
 #### Key Features for Layer Management in AnalyticsCreator
 
 * **Customization**: Define layers to fit your project’s specific requirements, whether it's raw data processing, transformation, or reporting.
@@ -50,8 +56,6 @@ AnalyticsCreator empowers users to define and customize layers within their Data
 * **Data Flow Automation**: Leverage predefined transformations and scripts to ensure seamless data movement between layers.
 * **Flexibility**: Combine methodologies, such as using a Medallion structure for staging and a Kimball model for reporting layers.
 
-#### Suggested, Not Prescriptive
+AnalyticsCreator robust archtechure allows you the freedom to choose any modeling approach you feell confortable with based on your project requirements, organizational goals, and preferences.
 
-While AnalyticsCreator supports these methodologies and architectures, they are suggestions rather than rigid rules. At the end of the day, the choice of layers and their design is entirely up to you, based on your project requirements, organizational goals, and preferences.
-
-This flexibility ensures that your Data Warehouse can be tailored to meet your specific needs while leveraging best practices.
+[This flexibility ensures that your Data Warehouse can be tailored to meet your specific needs while leveraging best practices.](https://www.analyticscreator.com/blog/best-practices-for-choosing-a-data-modeling-technique-for-your-data-warehouse)
