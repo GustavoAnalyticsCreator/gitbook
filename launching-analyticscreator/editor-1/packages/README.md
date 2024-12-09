@@ -13,24 +13,11 @@ layout:
     visible: true
 ---
 
-# Packages overview
+# Packages
 
 Packages in AnalyticsCreator serve as containers for specific data transformation tasks, often linked to ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) processes. AnalyticsCreator supports both ETL and ELT workflows, giving you the flexibility to choose the best method for your data pipeline. These packages are key components for structuring your data workflows and ensure smooth integration between different systems.
 
-## There are several types of Packages:
-
-* **Import Packages**
-* **Historization Packages**
-* **Persisting Packages**
-* **External Packages**
-* **Script Packages**
-* **Workflow Packages**
-
-Each package type serves a different purpose within the ETL or ELT process, allowing you to automate, transform, and load your data efficiently.
-
-#### **Types of Packages**
-
-Here are the different types of packages available in AnalyticsCreator:
+## There are 6 (six) the different types of packages available in AnalyticsCreator:
 
 1. **Import Packages**\
    Used for importing data from external sources into your system.

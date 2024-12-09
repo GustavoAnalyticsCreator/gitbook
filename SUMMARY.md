@@ -16,8 +16,15 @@
     * [Advanced Features](launching-analyticscreator/editor/analyticscreator-desktop-ui/advanced-features.md)
   * [Working with AnalyticsCreator Desktop](launching-analyticscreator/editor/working-with-analyticscreator-desktop.md)
 * [AnalyticsCreator Repository](launching-analyticscreator/editor-1/README.md)
-  * [Connectors](launching-analyticscreator/editor-1/connectors.md)
-  * [Layers](launching-analyticscreator/editor-1/layers.md)
+  * [Connectors](launching-analyticscreator/editor-1/connectors/README.md)
+    * [Create or edit a Connector](launching-analyticscreator/editor-1/connectors/create-or-edit-a-connector.md)
+    * [Importing from cloud](launching-analyticscreator/editor-1/connectors/importing-from-cloud.md)
+    * [Import from file](launching-analyticscreator/editor-1/connectors/import-from-file.md)
+    * [Add+](launching-analyticscreator/editor-1/connectors/add+.md)
+  * [Layers](launching-analyticscreator/editor-1/layers/README.md)
+    * [Layers detailed](launching-analyticscreator/editor-1/layers/layers-detailed.md)
+    * [Schemas](launching-analyticscreator/editor-1/layers/schemas.md)
+    * [Schemas detailed](launching-analyticscreator/editor-1/layers/schemas-detailed.md)
   * [Packages](launching-analyticscreator/editor-1/packages/README.md)
     * [Packages detailed](launching-analyticscreator/editor-1/packages/packages-detailed.md)
   * [Indexes](launching-analyticscreator/editor-1/indexes.md)
@@ -35,7 +42,6 @@
   * [Deployments](launching-analyticscreator/editor-1/deployments.md)
   * [Groups](launching-analyticscreator/editor-1/groups.md)
   * [Models](launching-analyticscreator/editor-1/models.md)
-  * [Layers detailed](launching-analyticscreator/editor-1/layers-detailed.md)
 
 ## Tutorials
 

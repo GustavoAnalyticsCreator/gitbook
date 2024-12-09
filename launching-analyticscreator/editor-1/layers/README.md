@@ -14,7 +14,7 @@ layout:
     visible: true
 ---
 
-# Layers detailed
+# Layers
 
 AnalyticsCreator empowers users to define and customize layers within their Data Warehouse projects, offering flexibility to align with popular methodologies and architectures. Layers serve as the foundation for organizing and transforming data throughout its lifecycle, from raw ingestion to final reporting and analytics.
 
@@ -42,12 +42,6 @@ AnalyticsCreator empowers users to define and customize layers within their Data
   * **Business Vault**: Applied business rules for enriched and transformed data.
   * **Information Mart**: Data structured for specific reporting needs.
 * Supports agile development with a focus on historical tracking and auditability.
-
-#### &#x34;**. Mixed modeling**
-
-
-
-<mark style="background-color:orange;">Include mixed model --> check</mark>&#x20;
 
 #### Key Features for Layer Management in AnalyticsCreator
 
