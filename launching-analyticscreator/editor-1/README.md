@@ -13,9 +13,9 @@ layout:
     visible: true
 ---
 
-# AnalyticsCreator Repository
+# AnalyticsCreator Reference guide
 
-The **AnalyticsCreator Repository** is the central storage location for all **metadata** related to your data warehouse projects. It serves as the foundation for organizing and managing the various elements of a data warehouse, ensuring consistency, scalability, and efficient collaboration across teams.
+The **AnalyticsCreator** is the central storage location for all **metadata** related to your data warehouse projects. It serves as the foundation for organizing and managing the various elements of a data warehouse, ensuring consistency, scalability, and efficient collaboration across teams.
 
 ### **What is the AnalyticsCreator Repository?**
 
