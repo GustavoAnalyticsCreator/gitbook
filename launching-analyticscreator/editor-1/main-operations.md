@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Main operations
 
 Create new repository: To create a new repository please click on “File->new” button in tool bar:
