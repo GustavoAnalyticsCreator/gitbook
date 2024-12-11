@@ -2,10 +2,30 @@
 
 To start Import wizard please use source context menu:
 
-You can see that there are some sources having “!” sign on its icon – these sources are still not imported. If you try to launch import wizard on already imported source you will get an error:
+<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+
+Sources marked with a **“!”** icon indicate that they have not yet been imported. Attempting to launch the Import Wizard on a source that has already been imported will result in an error.
+
+<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
 There is a typical Import wizard window:
 
-Options: Source: Source which should be imported Target schema: schema of the import table Target name: name of the import table Package: name of SSIS package where the import will be done. You can select the existing import package or add a new package name. Please click on “Finish”. The import definition window will be opened and the user can define some additional import attributes and parameters:
+<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
-Please see “Import package” description for more information. After you created a new import, please refresh the diagram to see the changes:
+### **Options:**&#x20;
+
+1. Source: Source which should be imported&#x20;
+2. Target schema: schema of the import table&#x20;
+3. Target name: name of the import table&#x20;
+4. Package: name of SSIS package where the import will be done. You can select the existing import package or add a new package name.&#x20;
+5. Please click on “Finish”. The import definition window will be open and the user can define some additional import attributes and parameters:
+
+Click **“Finish”** to proceed. The import definition window will open, allowing the configuration of additional import attributes and parameters.
+
+<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+
+Refer to the **“Import Package”** description for more details.
+
+After creating a new import, refresh the diagram to reflect the changes.
+
+<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>

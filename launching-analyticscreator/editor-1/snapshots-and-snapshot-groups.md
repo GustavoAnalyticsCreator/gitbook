@@ -1,11 +1,36 @@
 # Snapshots and snapshot groups
 
-Snapshots are the predefined dates which will be calculated during the ETL process and used in the Snapshot-Transformations to combine the historicized data. There is always at least one Snapshot called “Actual date” – the value of this Snapshot is the current timestamp. You can define more snapshots. There is a typical snapshot definition:
+Snapshots are predefined dates calculated during the ETL process and utilized in Snapshot Transformations to combine historicized data.
 
-Each snapshot name should be unique. The SQL statement will be used to calculate the snapshot value. There is one predefined variable @ActDate which the user can use in this statement – the value of this variable is the current timestamp. Several snapshots can be combined in snapshot groups:
+By default, there is always at least one snapshot, referred to as the **“Actual Date”**, which represents the current timestamp. Additional snapshots can be defined as needed. Below is a typical snapshot definition:
 
-If you work with several snapshots the user can define the Snapshot-Dimension and use it as a common dimension in the data mart layer. To create snapshot dimension, please use according context menu:
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+
+```sql
+DATEADD(ms, -2, CONVERT(datetime, CONVERT(date, DATEADD(dd, 1-DATEPART(d, @ActDate), @ActDate))))
+
+```
+
+
+
+Each snapshot must have a unique name.
+
+An SQL statement is used to calculate the snapshot value. The predefined variable `@ActDate`, representing the current timestamp, can be utilized within this statement.
+
+Multiple snapshots can be organized into snapshot groups for better management and functionality, as demonstrated in the example below.
+
+<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+
+When working with multiple snapshots, a Snapshot Dimension can be defined and utilized as a common dimension in the data mart layer.
+
+To create a Snapshot Dimension, use the corresponding context menu, as demonstrated in the example below.
+
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 Snapshots are used in the regular snapshot transformations:
 
-You can use as both snapshot groups and snapshots. All selected snapshots will be used in transformation.
+<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+
+<img src="../../.gitbook/assets/image (59).png" alt="" data-size="original">
+
+Both snapshot groups and individual snapshots can be utilized. All selected snapshots are applied during the transformation process.

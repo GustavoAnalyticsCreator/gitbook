@@ -2,16 +2,111 @@
 
 Transformation wizard should be used to create new transformation. To start Transformation wizard you should use the object context menu “Add->Transformation” in the diagram:
 
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+
 The typical Transformation wizard window:
 
-AnalyticsCreator supports different transformation types: Regular transformations described in the tabular form. Based on the description AnalyticsCreator generates the VIEW Manual transformations are the hand created VIEWs Script transformations are the SQL scripts. Using SQL Scripts the user can call stored procedures. External transformations are manually created SSIS packages. Transformatino wizard has the following options: Main page: Type: transformation type Dimension: a regular transformation usually used to create dimensions. The default settings for a dimension are: Historizing type: FullHist Create empty member: yes Table JoinHistType: Actual Fields: all fields Fact: a regular transformation usually used to create facts. The default settings for a dimension are: Historizing type: Snapshot Create empty member: no Table JoinHistType: Historical\_to Fields: all key fields Other: a regular transformation. The default settings for a dimension are: Historizing type: FullHist Create empty member: no Table JoinHistType: Historical\_to Fields: all fields Manual: a manually defined VIEW. Default settings are irrelevant External: external transformation Script: script transformation Schema: transformation schema Name: transformation name Historizing type: defines how to work with historicized data FullHist: Fully historicized transformation with result contains \[SATZ\_ID], \[DAT\_VON\_HIST] and \[DAT\_BIS\_HIST] fields. Usually used to define dimensions. SnapshotHist: Fully historicized transformation with data for predefined snapshot dates only. Usually used to define dimensions. Snapshot: Transformation using predefined snapshot dates to combine historicized data. Usually used to define fats. ActualOnly: To combine historicized data only actual data will be used. Can be used to create dimensions and facts. None: Should be used to work with not historicized data. Main table: main table used in transformation. Relevant for regular transformations only Create unknown member: usually used in dimensions. Adds to the transformation a new row with surrogate ID = 0 and default values for the fields. Usually is used as a dimension member in case the according dimension member is not found during the fact processing. Persist transformation: if selected, the content of VIEW will be stored in the table to speed up access to the transformation results. Relevant for the regular and manual transformations. Persist table: name of the table to persist transformation results. Persist package: name of the SSIS package to persist transformation results Result table: Relevant for external or script transformations. The name of the table where the transformation result will be stored SSIS Package: Relevant for external or script transformations. The name of the SSIS package where the transformation will be launched Table selection page. On this page the user can select additional tables using in the transformation. These tables should be directly or indirectly referenced to the main table of transformation.
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
-Parameters: Table JoinHistType: is relevant for the historicized tables only. There are always two tables: the joined table and the anchor table – the table which the joined table join on. None: No additional conditions will be added to the JOIN statement Actual: most actual data will be selected from the joined table Historical\_from: only the data which the documentationre valid at the start of validity period of the anchor table will be selected from the joined table. Historical\_to: only the data which the documentationre valid at the end of validity period of the anchor table will be selected from the joined table. Full: the full history of changes in both tables will be reproduced. This is most complete but also most complex join type for two historicized tables. All N:1 direct related: all tables directly referenced to the main table with cardinality “Many-to-one” will be added All direct related: all tables directly referenced to the main table with any cardinality All N:1 related: all tables directly and indirectly referenced to the main table with cardinality “Many-to-one” will be added All related: all tables directly and indirect referenced to the main table with any cardinality Use hash keys if possible: if there are hash key references in addition to the business key references, they will be used. Parameter page: on this page the user can set some additional transformation parameter, relevant for the regular transformations only.
+AnalyticsCreator supports different transformation types:
 
-Parameters: Fields: which fields will be added to the transformation None: no fields will be added. You should define transformation fields manually All key fields: Key fields from all transformation tables will be added. Usually this option will be used in fact transformations. All fields: All fields from all transformation tables will be added. Usually this option will be used in dimension transformations. Field names: field name in case of duplicated names Field\[n]: the sequential number will be added to the field name (for example “Descrition1”) Table\_Field: - table name will be added to the field name (for example “Department\_Descrition”) Field names appearance No changes: field names remain unchanged Upper case: field names will be converted in upper case Lothe documentationr case: field names will be converted in lothe documentationr case Key fields NULL to zero: if selected, the NULL values in key fields will be converted into 0. Is useful for the fact transformations to join with default member in dimensions in case of missing dimension members. Use friendly names as column names: In case there are friendly column names in the transformation tables, they will be used as field names. Stars page: There the user can define the stars which transformation belong to and the predefined transformations.
+1. Regular transformations described in the tabular form. Based on the description AnalyticsCreator generates the VIEW&#x20;
+2. Manual transformations are the hand created VIEWs&#x20;
+3. Script transformations are the SQL scripts. Using SQL Scripts you can call stored procedures.
+4. External transformations are manually created SSIS packages. Transformatino wizard has the following options:
 
-Stars: You can select in which data mart stars the transformation will be presented Default transformations No defaults: no predefined transformations will be used. Usually this is a setting for the fact transformations All defaults: all predefined transformations will be used. Usually this is a setting for the dimension transformations Selected defaults: the user can select predefined transformations using the list boxes below. Depending tables page:
+Transformatino wizard has the following options:
 
-This page is relevant for the external transformations. Here you should add the tables which the user's transformation depends on. Script page:
+Main page:
 
-This page is relevant for the script transformations. Here you should enter the SQL Script of the user's transformation.
+1. Type: transformation type
+   1. Dimension: a regular transformation usually used to create dimensions. The default settings for a dimension are:
+      1. Historizing type: FullHist
+      2. Create empty member: yes
+      3. Table JoinHistType: Actual
+      4. Fields: all fields
+   2. Fact: a regular transformation usually used to create facts. The default settings for a dimension are:
+      1. Historizing type: Snapshot
+      2. Create empty member: no
+      3. Table JoinHistType: Historical\_to
+      4. Fields: all key fields
+   3. Other: a regular transformation. The default settings for a dimension are:
+      1. Historizing type: FullHist
+      2. Create empty member: no
+      3. Table JoinHistType: Historical\_to
+      4. Fields: all fields
+   4. Manual: a manually defined VIEW. Default settings are irrelevant
+   5. External: external transformation
+   6. Script: script transformation
+   7. Schema: transformation schema
+   8. Name: transformation name
+   9. Historizing type: defines how to work with historicized data
+      1. FullHist: Fully historicized transformation with result contains \[SATZ\_ID], \[DAT\_VON\_HIST] and \[DAT\_BIS\_HIST] fields. Usually used to define dimensions.
+      2. SnapshotHist: Fully historicized transformation with data for predefined snapshot dates only. Usually used to define dimensions.
+      3. Snapshot: Transformation using predefined snapshot dates to combine historicized data. Usually used to define fats
+      4. ActualOnly: To combine historicized data only actual data will be used. Can be used to create dimensions and facts.
+      5. None: Should be used to work with not historicized data.
+   10. Main table: main table used in transformation. Relevant for regular transformations only
+   11. Create unknown member: usually used in dimensions. Adds to the transformation a new row with surrogate ID = 0 and default values for the fields. Usually is used as a dimension member in case the according dimension member is not found during the fact processing.
+   12. Persist transformation: if selected, the content of VIEW will be stored in the table to speed up access to the transformation results. Relevant for the regular and manual transformations.
+   13. Persist table: name of the table to persist transformation results.
+   14. Persist package: name of the SSIS package to persist transformation results
+   15. Result table: Relevant for external or script transformations. The name of the table where the transformation result will be stored
+   16. SSIS Package: Relevant for external or script transformations. The name of the SSIS package where the transformation will be launched
+
+**Table Selection Page**: This page allows the selection of additional tables to be used in the transformation. These tables must be directly or indirectly referenced to the main transformation table.
+
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+
+### Parameters:
+
+1. Table JoinHistType: is relevant for the historicized tables only. There are always two tables: the joined table and the anchor table – the table which the joined table join on.
+   1. None: No additional conditions will be added to the JOIN statement
+   2. Actual: most actual data will be selected from the joined table
+   3. &#x20;Historical\_from: only the data which were valid at the start of validity period of the anchor table will be selected from the joined table.
+   4. Historical\_to: only the data which were valid at the end of validity period of the anchor table will be selected from the joined table.
+   5. Full: the full history of changes in both tables will be reproduced. This is most complete but also most complex join type for two historicized tables.
+2. All N:1 direct related: all tables directly referenced to the main table with cardinality “Many-to-one” will be added
+3. &#x20;All direct related: all tables directly referenced to the main table with any cardinality
+4. All N:1 related: all tables directly and indirectly referenced to the main table with cardinality “Many-to-one” will be added
+5. All related: all tables directly and indirect referenced to the main table with any cardinality
+6. Use hash keys if possible: if there are hash key references in addition to the business key references, they will be used.
+
+Parameter Page: This page allows the configuration of additional transformation parameters, applicable only to regular transformations.
+
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+
+Parameters:
+
+1. Fields: which fields will be added to the transformation
+   1. None: no fields will be added. You should define transformation fields manually
+   2. All key fields: Key fields from all transformation tables will be added. Usually this option will be used in fact transformations.
+   3. All fields: All fields from all transformation tables will be added. Usually this option will be used in dimension transformations.
+2. Field names: field name in case of duplicated names
+   1. Field\[n]:  the sequential number will be added to the field name (for example “Descrition1”)
+   2. Table\_Field: - table name will be added to the field name (for example “Department\_Descrition”)
+3. Field names appearance
+   1. No changes: field names remain unchanged
+   2. Upper case: field names will be converted in upper case
+   3. Lower case: field names will be converted in lower case
+4. Key fields NULL to zero: if selected, the NULL values in key fields will be converted into 0. Is useful for the fact transformations to join with default member in dimensions  in case of missing dimension members.
+5. Use friendly names as column names: In case there are friendly column names in the transformation tables, they will be used as field names.
+
+**Stars Page**: This page allows you to define the stars to which the transformation belongs and specify any predefined transformations.
+
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+
+1. **Stars**: Specifies the data mart stars where the transformation will be included.
+2. **Default Transformations**: Defines the use of predefined transformations for the transformation.
+   1. **No Defaults**: No predefined transformations are applied, typically used for fact transformations.
+   2. **All Defaults**: All predefined transformations are applied, commonly used for dimension transformations.
+   3. **Selected Defaults**: Specific predefined transformations can be chosen using the provided list boxes.
+3. Depending tables page:
+
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+
+This feature is relevant for the external transformations. Here you should add the tables which your transformation depends on.
+
+**Script Page**: This page is specifically for script transformations. It allows the entry of the SQL script that defines the transformation logic.
+
+<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>

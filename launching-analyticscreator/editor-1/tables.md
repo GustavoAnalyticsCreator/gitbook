@@ -12,7 +12,7 @@ There is the typical table definition:
 
 Properties:&#x20;
 
-1. &#x20;**Table name:** table name&#x20;
+1. **Table name:** table name&#x20;
 2. **Table schema:** table schema&#x20;
 3.  **Table type:** type of the table&#x20;
 
@@ -33,14 +33,14 @@ Properties:&#x20;
     12. Data vault satellite table with history: Historicized table containing data vault satellite records o Data vault link table with history: Historicized table containing data vault link records&#x20;
 
 
-4. Friendly name: if defined, will be used in OLAP cubes instead of table name. Friendly name will be inherited by depending objects
-5. Compression type: table compression type. DEFAULT (settable using parameter TABLE\_COMPRESSION\_TYPE), NONE, RAW, PAGE&#x20;
-6. Description: table description. Will be inherited by depending objects&#x20;
-7. Hist of table, Persist of table, Hub of table, Satellite of table, Link of table: name of according table&#x20;
-8. Has primary key: if checked, the PRIMARY KEY COSTRAINT will be added to the table&#x20;
-9. Primary key name: name of primary key.
-10. PK clustered: if checked, the clustered primary key will be created&#x20;
-11. Columns: table columns&#x20;
+4. **Friendly name:** if defined, will be used in OLAP cubes instead of table name. Friendly name will be inherited by depending objects
+5. **Compression type:** table compression type. DEFAULT (settable using parameter TABLE\_COMPRESSION\_TYPE), NONE, RAW, PAGE&#x20;
+6. **Description:** table description. Will be inherited by depending objects&#x20;
+7. **Hist of table:** Persist of table, Hub of table, Satellite of table, Link of table: name of according table&#x20;
+8. **Has primary key:** if checked, the PRIMARY KEY COSTRAINT will be added to the table&#x20;
+9. **Primary key name:** name of primary key.
+10. **PK clustered:** if checked, the clustered primary key will be created&#x20;
+11. **Columns:** table columns&#x20;
 
     1. Column name: name of column
     2. Data type, MaxLength, NumPrec, NumScale, Nullable: SQL column properties
@@ -51,7 +51,7 @@ Properties:&#x20;
     7. References: comma-separated list of referenced columns. Is read-only&#x20;
 
 
-12. Identity column: if defined, the identity columns will be added to the table&#x20;
+12. **Identity column:** if defined, the identity columns will be added to the table&#x20;
     1. Name, type, seed, increment – SQL IDENTITY properties&#x20;
     2. PK pos: column position in primary key (usually – 1)&#x20;
 
@@ -61,11 +61,11 @@ For the normal tables (not views) you can optional define identity column and ca
 
 Properties:
 
-1. Column name: name of column
-2. Statement: SQL Statement. You can use AnalyticsCreator macros (see Macros). You can use predefined @GetVaultHash – macro to create hash keys.
-3. Persisted: if checked, calculated column will be persisted
-4. PKOrdinalPos: column position in primary key (1,2…)
-5. Friendly name: if defined, will be used in OLAP cubes instead of column name. Friendly name will be inherited by depending objects
-6. Referenced column: here you can define the “one-field” N:1 references to the primary keys in another tables.
-7. References: comma-separated list of referenced columns. Is read-only
+1. **Column name:** name of column
+2. **Statement:** SQL Statement. You can use AnalyticsCreator macros (see Macros). You can use predefined @GetVaultHash – macro to create hash keys.
+3. **Persisted:** if checked, calculated column will be persisted
+4. **PKOrdinalPos:** column position in primary key (1,2…)
+5. **Friendly name:** if defined, will be used in OLAP cubes instead of column name. Friendly name will be inherited by depending objects
+6. **Referenced column:** here you can define the “one-field” N:1 references to the primary keys in another tables.
+7. **References:** comma-separated list of referenced columns. Is read-only
 

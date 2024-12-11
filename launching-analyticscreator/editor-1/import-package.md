@@ -1,5 +1,21 @@
 # Import package
 
-will be used to import data from the external data source. One package can be used to define many imports. There is a typical import definition:
+This package is used to import data from external data sources.&#x20;
 
-There are several options to customize data import: Fields: You can define the mapping betthe documentationen the source and target fields and define the SSIS statements for the import fields. You can define the SSIS variables. You can define expression to calculate the variable value and the user can set the variable value using SSIS\_Configuration table. These variables the user can use to define filters. Filter: You can define filters to restrict the importing data. You can use the SSIS Variables. Please use “@” – char as variable identifier (for example @Date) Scripts - tab: You can define SQL Scripts which will be executed prior or after the data import. ImpSQL: Here the user can redefine the SQL command using to import data. Update statistics: Please select this checkbox to launch UPDATE STATISTICS command after import is finished. Manually created: Please select this checkbox if you manually created or changed this SSIS Package. If “Manually created” option is selected, the package will be not generated during deployment but will be added into workflow. Use logging: If selected, the log information about the package execution will be stored in the DWH log tables Externally launched: if selected, the package will be not included into workflow. In this case you should launch the package on the user's own.
+A single package can be used to define multiple imports.&#x20;
+
+Below is a typical import definition:
+
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+
+Proprieties:
+
+1. **Fields**: Defines the mapping between the source and target fields and specifies the SSIS statements for the import fields.
+2. **SSIS Variables**: Allows the definition of variables, expressions to calculate variable values, and settings for these values using the **`SSIS_Configuration`** table. These variables are used to define filters.
+3. **Filter**: Defines filters to restrict the data being imported. SSIS variables are used in filters, with the “@” character serving as the variable identifier (e.g., `@Date`).
+4. **Scripts** (Tab): Defines SQL scripts that are executed before or after the data import process.
+5. **ImpSQL**: Redefines the SQL command used for importing data.
+6. **Update Statistics**: Selecting this checkbox launches the `UPDATE STATISTICS` command after the import process is completed.
+7. **Manually Created**: Selecting this checkbox indicates the SSIS package is manually created or modified. If selected, the package is not generated during deployment but is added to the workflow.
+8. **Use Logging**: If enabled, log information about the package execution is stored in the DWH log tables.
+9. **Externally Launched**: If selected, the package is excluded from the workflow and must be launched manually.
