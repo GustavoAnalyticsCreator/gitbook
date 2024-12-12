@@ -1,3 +1,7 @@
+---
+icon: plug
+---
+
 # Connectors
 
 ## Setting Up Connectors in AnalyticsCreator
@@ -8,7 +12,7 @@ Connectors in AnalyticsCreator allow users to establish data source connections,
 
 To create or edit a connector, navigate through the toolbar menu:
 
-* Select **Sources** > **Connectors**
+**Select** **Sources** -> **Connectors**
 
 {% embed url="https://www.canva.com/design/DAGY0qZnlJA/GksgltzpUrPpIexhggPHvw/view?utlId=h9e3db782a9&utm_campaign=designshare&utm_content=DAGY0qZnlJA&utm_medium=link2&utm_source=uniquelinks" %}
 
@@ -24,6 +28,8 @@ To create or edit a connector, navigate through the toolbar menu:
 * OLEDB
 * SAP (using Theobald connector)
 * ODBC
+* ADF (Azure Data Factory)&#x20;
+* [+250 3rd party connectors (CData)](https://www.cdata.com/drivers/)
 
 ### Connection String and Templates
 
@@ -58,4 +64,8 @@ For automatic data source description retrieval, ensure your connections to thes
 ### Cloud Storage for Connectors
 
 Store connector definitions and associated data sources in the cloud. Cloud storage provides a durable and accessible platform for managing your data across different repositories, enhancing collaboration and data security.
+
+### Encrypted strings
+
+
 

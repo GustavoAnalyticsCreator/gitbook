@@ -1,6 +1,6 @@
 # External transformation
 
-External transformation is a transformation makes in hand-made SSIS package.&#x20;
+External transformation is a transformation made manually using a  SSIS package.&#x20;
 
 1. Result table: is the table where the transformation results will be stored
 2. SSIS package: name of manually created SSIS package

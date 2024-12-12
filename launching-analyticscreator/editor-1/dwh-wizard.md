@@ -53,7 +53,7 @@ On the next page the user can set some additional parameters:
 
 <figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
-Proprieties&#x20;
+DWH Wizard Proprieties&#x20;
 
 1. Field name appearance: You can decide if the field names remain unchanged or will be converted into upper or lothe documentationr case strings.&#x20;
 2. Retrieve relations: If DWH wizard should try to retrieve information about source references from the source.&#x20;

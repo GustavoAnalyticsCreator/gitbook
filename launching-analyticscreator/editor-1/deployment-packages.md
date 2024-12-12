@@ -6,17 +6,17 @@ Each deployment package is a Visual Studio solution containing the necessary ele
 
 <figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
-**Proprieties**
+**Deployment packages** **Proprieties**
 
-1. Name: The name of deployment package and the name of generated the visual studio solution.
-2. Create DACPAC: If checked, the DACPAC file containing WDH structure will be generated&#x20;
+1. **Name:** The name of deployment package and the name of generated the visual studio solution.
+2. **Create DACPAC:** If checked, the DACPAC file containing WDH structure will be generated&#x20;
 3. Deploy DACPAC: If checked, the DACPAC file will be deployed to the database defined below.
 4. Server, DB Name, Integrated security, Login and Password: the connection attributes of SQL Server the DACPAC file should be deployed to.&#x20;
 5. Allow data loss, Drop objects not in source, Backup DB before changes, Block when drift detected, Deploy in single user mode and Allow incompatible platform: the DACPAC deployment options. \
    See SQLDEPLOY.EXE options for more information.&#x20;
 6. Create Power Pivot: if checked, the Excel file containing Power Pivot/Poth Power BI BI semantic model will be created. This Power Pivot file can be imported into Power BI
 
-&#x20;Next options are common for Multidimensional and Tabular OLAP databases
+&#x20;**Next options are common for Multidimensional and Tabular OLAP databases**
 
 1. Create XMLA file: if checked, the XMLA file containing OLAP database definition will be created
 2. Server, DB Name, Login, Password: Connection attributes of OLAP Server where the OLAP database will work. You can add there a dummy information but then you should edit the XMLA file and replace the dummy data with the properly server credentials.&#x20;

@@ -1,8 +1,14 @@
+---
+icon: table-list
+---
+
 # Tables
 
 #### **Tables in AnalyticsCreator**
 
-A **table** represents a database table or view within the data warehouse, and each table belongs to a specific schema. Tables are created automatically when defining a data import, historization, or persisting process. Views are created when defining a transformation. Additionally, tables can be manually created to store results of external or script transformations.
+A **table** represents a database **table** or **view** within the data warehouse, and each table belongs to a specific schema. Tables are created automatically when defining a data import, historization, or persisting process.&#x20;
+
+**Views** are created when defining a transformation. Additionally, tables can be manually created to store results of external or script transformations.
 
 For most tables, several properties can be configured, including calculated columns, primary keys, identity columns, and indexes.
 
@@ -10,14 +16,14 @@ There is the typical table definition:
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-Properties:&#x20;
+**Table Properties**:&#x20;
 
 1. **Table name:** table name&#x20;
 2. **Table schema:** table schema&#x20;
 3.  **Table type:** type of the table&#x20;
 
-    1. Import table: Table which is filled by the external data using SSIS package.
-    2. Historicized table: Table containing historicized data. Every historicized table contains 3 mandatory fields (names are configurable): \
+    1. **Import table:** Table which is filled by the external data using SSIS package.
+    2. **Historicized table:** Table containing historicized data. Every historicized table contains 3 mandatory fields (names are configurable): \
        SATZ\_ID (bigint) – surrogate primary key \
        DAT\_VON\_HIST (datetime) – start of a validity period \
        DAT\_BIS\_HIST (datetime) – end of a validity period
@@ -59,7 +65,7 @@ For the normal tables (not views) you can optional define identity column and ca
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-Properties:
+Calculated Columns Properties:
 
 1. **Column name:** name of column
 2. **Statement:** SQL Statement. You can use AnalyticsCreator macros (see Macros). You can use predefined @GetVaultHash – macro to create hash keys.

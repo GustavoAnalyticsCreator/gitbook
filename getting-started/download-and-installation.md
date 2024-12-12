@@ -17,7 +17,7 @@ layout:
 # Download and Installation
 
 1. **Access the Download Page**\
-   Navigate to the AnalyticsCreator download page.\
+   Navigate to the [AnalyticsCreator download page.](https://services.analyticscreator.com/AnalyticsCreator/publish.htm)\
 
 2. **Download the Installer**\
    Locate and download the installation file.\

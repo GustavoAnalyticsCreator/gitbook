@@ -1,8 +1,20 @@
+---
+icon: layer-group
+---
+
 # Layers
 
 ### Layers in a Data Warehouse
 
 In a data warehouse, layers are a crucial aspect of its logical structure. Users have the ability to define a variety of layers which serve different purposes. Here, we will delve into the five primary types of layers typically used in a data warehouse architecture, explaining their functions and how they interconnect with each other.
+
+{% embed url="https://www.canva.com/design/DAGY03aazHw/sA6ZbaTvhw6IJXE9-E9fWg/view?utlId=hbb2a67e030&utm_campaign=designshare&utm_content=DAGY03aazHw&utm_medium=link2&utm_source=uniquelinks" %}
+Data Lineage View
+{% endembed %}
+
+This configuration facilitates an efficient workflow, transforming raw data sources into insightful, user-accessible information.&#x20;
+
+Each layer plays a distinct role in meeting the comprehensive objectives of warehousing, encapsulating data journey from acquisition to end-user presentation.
 
 #### 1. Source Layer (SRC)
 
@@ -27,13 +39,3 @@ Within the Data Warehouse Layer, data undergoes organization into complex struct
 #### 6. Data Mart Layer (DM)
 
 The Data Mart Layer is positioned as an interface layer, representing a focal point for end-user access. Data is structured logically, often adopting a star schema with fact tables and dimensions, effectively supporting user queries and reports.
-
-
-
-The strategic arrangement of these layers within a data warehouse is organized conventionally in the sequence: SRC – IMP – STG – TRN – DWH – DM.  As presented on the image bellow, from left to right.
-
-{% embed url="https://www.canva.com/design/DAGY03aazHw/sA6ZbaTvhw6IJXE9-E9fWg/view?utlId=hbb2a67e030&utm_campaign=designshare&utm_content=DAGY03aazHw&utm_medium=link2&utm_source=uniquelinks" %}
-
-This configuration facilitates an efficient workflow, transforming raw data sources into insightful, user-accessible information.&#x20;
-
-Each layer plays a distinct role in meeting the comprehensive objectives of warehousing, encapsulating data journey from acquisition to end-user presentation.

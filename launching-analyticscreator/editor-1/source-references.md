@@ -1,3 +1,7 @@
+---
+icon: file-plus-minus
+---
+
 # Source references
 
 Define relations between sources. These relations will be inherited by the data warehouse objects during the synchronization.&#x20;

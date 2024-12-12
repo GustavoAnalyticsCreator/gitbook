@@ -8,7 +8,7 @@ Below is a typical import definition:
 
 <figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
-Proprieties:
+Import package Proprieties:
 
 1. **Fields**: Defines the mapping between the source and target fields and specifies the SSIS statements for the import fields.
 2. **SSIS Variables**: Allows the definition of variables, expressions to calculate variable values, and settings for these values using the **`SSIS_Configuration`** table. These variables are used to define filters.

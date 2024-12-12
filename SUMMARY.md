@@ -6,6 +6,10 @@
 * [System Requirements](getting-started/system-requirements.md)
 * [Download and Installation](getting-started/download-and-installation.md)
 
+***
+
+* [Understanding analytics creator](understanding-analytics-creator.md)
+
 ## Launching AnalyticsCreator
 
 * [Launching AnalyticsCreator](launching-analyticscreator/editor/README.md)
@@ -20,13 +24,13 @@
     * [Settings](launching-analyticscreator/editor/analyticscreator-desktop-ui/settings.md)
   * [Working with AnalyticsCreator Desktop](launching-analyticscreator/editor/working-with-analyticscreator-desktop.md)
 * [AnalyticsCreator Reference guide](launching-analyticscreator/editor-1/README.md)
+  * [Sources](launching-analyticscreator/editor-1/sources.md)
+  * [Connectors](launching-analyticscreator/editor-1/connectors.md)
+  * [Refresh source metadata](launching-analyticscreator/editor-1/refresh-source-metadata.md)
   * [Layers](launching-analyticscreator/editor-1/layers.md)
   * [Schemas](launching-analyticscreator/editor-1/schemas.md)
   * [Stars](launching-analyticscreator/editor-1/stars.md)
   * [Galaxies](launching-analyticscreator/editor-1/galaxies.md)
-  * [Connectors](launching-analyticscreator/editor-1/connectors.md)
-  * [Sources](launching-analyticscreator/editor-1/sources.md)
-  * [Refresh source metadata](launching-analyticscreator/editor-1/refresh-source-metadata.md)
   * [Source references](launching-analyticscreator/editor-1/source-references.md)
   * [Tables](launching-analyticscreator/editor-1/tables.md)
   * [Table references](launching-analyticscreator/editor-1/table-references.md)
@@ -36,7 +40,7 @@
   * [External transformation](launching-analyticscreator/editor-1/external-transformation.md)
   * [Script transformation](launching-analyticscreator/editor-1/script-transformation.md)
   * [Data mart transformation](launching-analyticscreator/editor-1/data-mart-transformation.md)
-  * [SSIS Packages](launching-analyticscreator/editor-1/ssis-packages.md)
+  * [ETL](launching-analyticscreator/editor-1/etl.md)
   * [Import package](launching-analyticscreator/editor-1/import-package.md)
   * [Historization package](launching-analyticscreator/editor-1/historization-package.md)
   * [Persisting package](launching-analyticscreator/editor-1/persisting-package.md)
@@ -54,6 +58,8 @@
   * [Filter diagram by group](launching-analyticscreator/editor-1/filter-diagram-by-group.md)
   * [Wizards](launching-analyticscreator/editor-1/wizards.md)
   * [DWH Wizard](launching-analyticscreator/editor-1/dwh-wizard.md)
+  * [Dimensional Modeling with AnalyticsCreator](launching-analyticscreator/editor-1/dimensional-modeling-with-analyticscreator.md)
+  * [Mixed Modeling DWH](launching-analyticscreator/editor-1/mixed-modeling-dwh.md)
   * [Source Wizard](launching-analyticscreator/editor-1/source-wizard.md)
   * [Import wizard](launching-analyticscreator/editor-1/import-wizard.md)
   * [Historization wizard](launching-analyticscreator/editor-1/historization-wizard.md)
@@ -70,3 +76,4 @@
 
 * [Create your first DWH](tutorials/editor.md)
 * [Northwind Data Warehouse](tutorials/markdown.md)
+* [Data Vault 2.0 methodolgy with AnalyticsCreator](tutorials/data-vault-2.0-methodolgy-with-analyticscreator.md)

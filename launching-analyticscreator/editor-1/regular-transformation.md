@@ -8,7 +8,7 @@ There is a typical regular transformation definition:
 
 Regular transformation properties:&#x20;
 
-1. Historizing type: defines how to work with historicized data.
+1. **Historization type:** defines how to work with historicized data.
    1. **FullHist**: A fully historicized transformation where the result includes the specific fields listed below. This type of transformation is commonly used for defining dimensions.
       1. \[SATZ\_ID]
       2. \[DAT\_VON\_HIST]

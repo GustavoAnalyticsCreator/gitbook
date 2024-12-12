@@ -1,4 +1,14 @@
+---
+icon: webhook
+---
+
 # Sources
+
+{% hint style="info" %}
+PRO TIP: If you're new to AnalyticsCreator we highly recommend make use of the [Source Wizard](source-wizard.md)
+{% endhint %}
+
+
 
 Source contains the description of is the external data. Each source belongs to the connector. Each source has columns. You can define the references between sources.
 
@@ -8,7 +18,7 @@ To add new source please use source context menu “Add new source” in navigat
 
 There is the typical source definition:
 
-![](<../../.gitbook/assets/image (1).png>)\
+![](<../../.gitbook/assets/image (1) (1).png>)\
 
 
 Depend on the connector type and the source type sources can have different properties.

@@ -22,8 +22,6 @@ Instead of selecting "Install," click "Launch" **(highlighted as "Number One" in
 
 This action will open a window displaying the AnalyticsCreator Servers, which will transmit the latest version of AnalyticsCreator to your system.
 
-<mark style="background-color:orange;">Ask Dmitri if its possible to change it , to have just one button, or two buttons, launch and install , puttying launch first</mark>
-
 <figure><img src="https://www.analyticscreator.com/hs-fs/hubfs/Canva%20images/Download%20Page%20AnalyticsCreator.png?width=1920&#x26;height=1080&#x26;name=Download%20Page%20AnalyticsCreator.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}

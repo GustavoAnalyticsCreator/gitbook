@@ -1,6 +1,10 @@
+---
+icon: database
+---
+
 # Schemas
 
-Schemas is the Microsoft SQL Server schema which the DWH(Data Warehouse) object belong.&#x20;
+Schemas is the Microsoft SQL Server schema to which the DWH(Data Warehouse) object belongs.&#x20;
 
 Every schema should be assigned to the specific layer. Every layer can contain several schemas.&#x20;
 

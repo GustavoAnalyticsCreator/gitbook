@@ -1,8 +1,12 @@
+---
+icon: table-tree
+---
+
 # Table references
 
 #### **Defining Table Relationships in AnalyticsCreator**
 
-Relationships between tables can be defined to enable combining tables during transformations. These relationships include `N:1` ("one-field" to "one primary key field") references and more complex associations.
+Relationships between tables can be defined to enable combining tables during transformations. These relationships include `N:1` ("1-field" to "1-primary key field") references and more complex associations.
 
 **Defining `N:1` References**
 
@@ -17,7 +21,7 @@ There is the typical table reference definition:
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-### Properties:
+### Table Reference Properties:
 
 1. **Cardinality:**&#x20;
    1. Unknown
