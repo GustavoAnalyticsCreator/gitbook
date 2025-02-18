@@ -4,11 +4,11 @@ icon: database
 
 # Schemas
 
-Schemas is the Microsoft SQL Server schema to which the DWH(Data Warehouse) object belongs.&#x20;
+A schema is the Microsoft SQL Server schema to which a Data Warehouse (DWH) object belongs.&#x20;
 
-Every schema should be assigned to the specific layer. Every layer can contain several schemas.&#x20;
+Each schema should be assigned to a specific layer, and each layer can contain multiple schemas.&#x20;
 
-To list or edit schemas use “DWH -> Schemas” button in toolbar menu:
+To list or edit schemas, use the "DWH → Schemas" button in the toolbar menu.
 
 {% embed url="https://www.canva.com/design/DAGY5MOX8Dw/Q0RLeMf1uWJXAiHgtIf9Pg/view?utlId=hc7af3db74e&utm_campaign=designshare&utm_content=DAGY5MOX8Dw&utm_medium=link2&utm_source=uniquelinks" %}
 

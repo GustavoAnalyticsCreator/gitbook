@@ -24,8 +24,8 @@
     * [Settings](launching-analyticscreator/editor/analyticscreator-desktop-ui/settings.md)
   * [Working with AnalyticsCreator Desktop](launching-analyticscreator/editor/working-with-analyticscreator-desktop.md)
 * [AnalyticsCreator Reference guide](launching-analyticscreator/editor-1/README.md)
-  * [Sources](launching-analyticscreator/editor-1/sources.md)
   * [Connectors](launching-analyticscreator/editor-1/connectors.md)
+  * [Sources](launching-analyticscreator/editor-1/sources.md)
   * [Refresh source metadata](launching-analyticscreator/editor-1/refresh-source-metadata.md)
   * [Layers](launching-analyticscreator/editor-1/layers.md)
   * [Schemas](launching-analyticscreator/editor-1/schemas.md)
@@ -76,4 +76,3 @@
 
 * [Create your first DWH](tutorials/editor.md)
 * [Northwind Data Warehouse](tutorials/markdown.md)
-* [Data Vault 2.0 methodolgy with AnalyticsCreator](tutorials/data-vault-2.0-methodolgy-with-analyticscreator.md)

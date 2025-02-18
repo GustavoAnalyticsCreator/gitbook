@@ -14,7 +14,7 @@ For most tables, several properties can be configured, including calculated colu
 
 There is the typical table definition:
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Edit  table</p></figcaption></figure>
 
 **Table Properties**:&#x20;
 
@@ -63,7 +63,7 @@ There is the typical table definition:
 
 For the normal tables (not views) you can optional define identity column and calculated columns (Calculated columns – tab).
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Calculated Columns Properties:
 

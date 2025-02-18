@@ -1,33 +1,28 @@
 ---
 icon: info
+description: Checking for Source Changes and Propagating Them to Data Warehouse Objects
 ---
 
 # Refresh source metadata
 
-You can check the source for changes and propagate found changes to the data warehouse objects.
+The user can check for changes in the source and propagate any detected changes to the data warehouse objects. To check for changes in all connector sources, use the connector context menu and select "Refresh all sources" in the navigation tree.
 
-To check for changes in all connector sources please use connector context menu “Refresh all sources” in the navigation tree.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-To check for changes in imported connector sources only please use connector context menu “Refresh used sources” in the navigation tree.
+{% embed url="https://www.analyticscreator.com/hubfs/WikiDocumentation/RefershMetadataFromSource.mp4" %}
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+To check for changes in imported connector sources only, use the connector context menu and select **"Refresh used sources"** in the navigation tree.
 
-To check for changes in specific source please use source context menu “Refresh source” in the navigation tree.
+To check for changes in a specific source, use the source context menu and select **"Refresh source"** in the navigation tree.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+**Refresh Source Options:**
 
-The refresh source options:
+The following refresh options are available:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
-
-#### There are refresh source options:
-
-1. **Detect differences:** without to change repository, if selected, the source changes will be detected but no changes will be made in repository
-2. **Delete missing sources:** missing sources will be deleted in repository
-3. **Refresh source descriptions:** Source descriptions will be refreshed
-4. **Refresh columns in imported tables:** Import table columns will be refreshed in case of new or changed source columns
-5. **Delete missing columns in imported tables:** Import table columns will be deleted in case of deleted source columns
-6. **Refresh primary keys in imported tables:** primary key of the import table will be refreshed in case of changed source primary key.
-7. **Refresh descriptions in imported tables:** Descriptions of import tables and columns will be refreshed
+* **Detect differences**: This option detects changes in the source but does not modify the repository. If selected, the source changes will be detected, but no changes will be made in the repository.
+* **Delete missing sources**: This option deletes any missing sources from the repository.
+* **Refresh source descriptions**: This option refreshes the descriptions of the sources.
+* **Refresh columns in imported tables**: This option refreshes the columns in the imported tables when there are new or changed source columns.
+* **Delete missing columns in imported tables**: This option deletes columns in the imported tables if the corresponding source columns have been deleted.
+* **Refresh primary keys in imported tables**: This option refreshes the primary key in the imported tables if the source’s primary key has changed.
+* **Refresh descriptions in imported tables**: This option refreshes the descriptions of the imported tables and columns.

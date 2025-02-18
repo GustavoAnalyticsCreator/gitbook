@@ -24,12 +24,11 @@ To create or edit a connector, navigate through the toolbar menu:
 * Oracle
 * CSV
 * Excel
+* DuckDB (Parquet, CSV, S3 )
 * MS Access
 * OLEDB
 * SAP (using Theobald connector)
 * ODBC
-* ADF (Azure Data Factory)&#x20;
-* [+250 3rd party connectors (CData)](https://www.cdata.com/drivers/)
 
 ### Connection String and Templates
 
@@ -67,5 +66,12 @@ Store connector definitions and associated data sources in the cloud. Cloud stor
 
 ### Encrypted strings
 
+We highly recommend keeping your connection strings encrypted.&#x20;
 
+To encrypt your string, simply click on Options → Encrypted Strings → New.&#x20;
 
+To use your encrypted strings in your sources, enclose the name you’ve created with # on both sides.&#x20;
+
+For example, if your DSN=DuckDB, the connection string will be #DuckDB#.
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>

@@ -4,21 +4,21 @@ icon: gear
 
 # Transformations
 
-Transformation is the way to modify the data. The result of the transformation is always a single **VIEW** or a single **TABLE**.&#x20;
+A transformation is a process used to modify data. The result of a transformation is always either a single VIEW or a single TABLE.&#x20;
 
-To create a new transformation, you should use the [Transformation wizard](transformation-wizard.md) .&#x20;
+To create a new transformation, use the [Transformation Wizard.](transformation-wizard.md)
 
-There are some common properties for each transformation:&#x20;
+Each transformation has the following common properties:
 
-1. **Name:** transformation name&#x20;
-2. [**Schema:**](schemas.md) transformation schema&#x20;
-3. **TransType:** transformation type&#x20;
-4. [**Stars:**](stars.md) List of stars in which the transformation takes in&#x20;
-   1. **Star:** Star name&#x20;
-   2. **IsFact:** should be selected for fact transformations&#x20;
-   3. **Filter:** You can define additional filter to restrict transformation data for specific data mart
+1. **Name:** The name of the transformation
+2. [**Schema:**](schemas.md) The schema for the transformation
+3. **TransType:** The type of transformation
+4. [**Stars:**](stars.md)  A list of stars in which the transformation is involved
+   1. **Star:** The name of the star
+   2. **IsFact:** This should be selected for fact transformations
+   3. **Filter:** You can define an additional filter to restrict transformation data for a specific data mart
 
-### AnalyticsCreator supports different transformation types:
+**AnalyticsCreator supports the following transformation types:**
 
 [Regular transformation](regular-transformation.md)
 

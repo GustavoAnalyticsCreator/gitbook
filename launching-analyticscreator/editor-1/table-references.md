@@ -19,7 +19,7 @@ More complex references you can define using “Table references”.
 
 There is the typical table reference definition:
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### Table Reference Properties:
 
@@ -31,7 +31,7 @@ There is the typical table reference definition:
    5. ManyToMany
 
 {% hint style="info" %}
-It is recommended to primarily use **Many-to-One (N:1)** and           **One-to-Many (1:N)** cardinalities.
+It is recommended to primarily use **Many-to-One (N:1)** and **One-to-Many (1:N)** cardinalities.
 {% endhint %}
 
 2. **Join:** SQL join type
@@ -48,23 +48,15 @@ It is recommended to primarily use **Many-to-One (N:1)** and           **One-to-
     3. **Column2:** Column from the second table
     4. **Statement2:** SQL statement.
 
-All defined conditions – both the Reference Statement and column conditions will be combined using AND operator.&#x20;
-
-The above reference would look like:
-
-```sql
-F.GJAHR = LEFT(C.DATUM, 4) 
-AND F.MANDT = 100 
-AND F.ARTNR = C.MATNR 
-AND F.BUKRS = C.BUKRS 
-AND F.WERKS = C.WERKS
-```
-
-The table relations will be inherited into the next DHW layers. For example, if you define the references between two import tables, which will be historicized, the same references will be created between two historicized tables.
+**Inheritance of Table Relations Across DWH Layers**
 
 \
-If you change the reference, the changes will be propagated into the inherited references unless they a used in transformations. Such references will be renamed (suffix “\_changed(N)” will be added) and the new inherited references will be created. Therefore, if you change the “parent” reference, the transformations using inherited reference will be not changed but you can change them manually by select the new inherited reference.
+Table relations will be inherited into subsequent DWH layers. For example, if references are defined between two import tables that are historicized, the same references will be automatically created between the corresponding historicized tables.
+
+If a reference is changed, the changes will propagate into the inherited references unless those references are used in transformations. In such cases, the references will be renamed by adding the suffix "\_changed(N)", and new inherited references will be created.
 
 \
-The inherited references (flag “Auto created” is set) cannot be changed unless you unmark the “Auto created” flag.
+Therefore, if a "parent" reference is changed, transformations using the inherited reference will not be updated automatically. However, you can manually update them by selecting the new inherited reference.
+
+The inherited references, where the "Auto created" flag is set, cannot be modified unless you uncheck the "Auto created" flag.
 

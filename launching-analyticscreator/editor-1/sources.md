@@ -10,33 +10,38 @@ PRO TIP: If you're new to AnalyticsCreator we highly recommend make use of the [
 
 
 
-Source contains the description of is the external data. Each source belongs to the connector. Each source has columns. You can define the references between sources.
+The source contains a description of the external data.&#x20;
 
-To open source definition please use source context menu “Edit source” in navigation tree or in diagram.
+Each source belongs to a connector.&#x20;
 
-To add new source please use source context menu “Add new source” in navigation tree or in diagram.
+Each source has columns, and references(_Table Keys_) between sources can be defined.&#x20;
 
-There is the typical source definition:
+To open the source definition, use the "Edit source" option from the source context menu in the navigation tree or diagram.&#x20;
 
-![](<../../.gitbook/assets/image (1) (1).png>)\
+To add a new source, use the "Add new source" option from the source context menu in the navigation tree or diagram. Below is a typical source definition:
+
+\
 
 
-Depend on the connector type and the source type sources can have different properties.
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-There are three source types:&#x20;
+The properties of sources depend on the connector type and the source type.
 
-1. TABLE
-2. &#x20;VIEW
-3. SAP\_DELTAQ and QUERY
+\
+There are three source types:
 
-In case of QUERY source type, the source window will have additional tab containing query definition.
+* TABLE
+* VIEW
+* SAP\_DELTAQ
+* QUERY\
 
-You cannot create a source manually. To add a new source, you should use either [DWH Wizard](dwh-wizard.md) or [Source Wizard.](source-wizard.md) The only source you can create manually is the CSV source.
 
-Additionally, you can define the source constraints. These constraints will be used due the data import to filter the wrong data or to generate warnings.
+For the **QUERY** source type, the source window will display an additional tab containing the query definition. You cannot create a source manually.&#x20;
+
+To add a new source, use either the DWH Wizard or the Source Wizard. The only source that can be created manually is the CSV source.
+
+Additionally, you can define source constraints. These constraints will be used during data import to filter incorrect data or generate warnings.
+
+In this example the data with **OrderDate \<DueDate** will be not imported and the message **OrderDate** greater than **DueDate** will be added to the log table. The data with **OrderDate = DueDate** will be imported but according log table entry will be generated.
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
-In this example the data with **StartDate < EndDate** will be not imported and the message **StartDate** greater than **EndDate** will be added to the log table. The data with **StartDate = EndDate** will be imported but according log table entry will be generated.
-
-###
