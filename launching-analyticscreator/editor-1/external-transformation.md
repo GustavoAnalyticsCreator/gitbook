@@ -1,11 +1,11 @@
 # External transformation
 
-External transformation is a transformation made manually using a  SSIS package.&#x20;
+An external transformation is a transformation manually created using an SSIS package.
 
-1. Result table: is the table where the transformation results will be stored
-2. SSIS package: name of manually created SSIS package
-3. Tables: list of tables on which the transformation depends. Only table name is relevant.
+1. **Result Table**: The table where the transformation results will be stored.
+2. **SSIS Package**: The name of the manually created SSIS package.
+3. **Tables**: A list of tables on which the transformation depends. Only the table name is relevant.
 
-There is a typical external transformation definition:
+Below is a typical external transformation definition:
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>

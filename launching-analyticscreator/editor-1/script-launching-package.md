@@ -1,3 +1,3 @@
 # Script launching package
 
-Will be used to run script transformations. There are no options to configure.
+A script launching package is used to execute script transformations. There are no configuration options available.

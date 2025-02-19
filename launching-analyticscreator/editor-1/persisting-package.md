@@ -1,3 +1,3 @@
 # Persisting package
 
-Will be used to persist transformations. There are no options to configure.
+A persisting package is used to persist transformations. There are no additional configuration options available.

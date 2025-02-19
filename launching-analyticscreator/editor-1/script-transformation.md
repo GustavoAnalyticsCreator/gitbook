@@ -1,11 +1,11 @@
 # Script transformation
 
-Script transformation is a transformation which uses SQL Script.
+A script transformation is a transformation that uses an SQL script.
 
-1. **Result table:** is the table where the transformation results will be stored&#x20;
-2. **SSIS package:** name of SSIS package where the transformation script will be launched&#x20;
-3. **Script:** SQL Script
+* **Result Table**: It is the table where the transformation results will be stored.
+* **SSIS Package**: It is the name of the SSIS package where the transformation script is executed.
+* **Script**: It is the SQL script used in the transformation.
 
-There is a typical script transformation definition:
+Below is a typical script transformation definition:
 
 <figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
