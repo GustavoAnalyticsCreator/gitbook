@@ -1,22 +1,18 @@
 # Calendar transformation wizard
 
-To create a calendar transformation, select **"Add" → "Calendar Dimension"** from the diagram context menu.
-
-As shown in the image below:
+To create calendar transformation please select the diagram context menu “Add-> Calendar dimension”.
 
 <figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 The **Calendar Transformation Wizard** will open. Typically, only one calendar transformation is required in the data warehouse.
 
-As shown in the image below:
-
 <figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
-**Parameters**:
+Parameters:&#x20;
 
-1. **Schema**: The schema of the calendar transformation.
-2. **Name**: The name of the calendar transformation.
-3. **Date From**: The start date for the calendar.
-4. **Date To**: The end date for the calendar.
-5. **Date-to-ID Function**: The name of the macro that transforms a **DateTime** value into the key value for the calendar dimension. This macro can be used, for example, in fact transformations to convert **datetime** fields into calendar dimension members.
-6. **Stars**: The data mart stars where the calendar transformation will be included.
+1. Schema: Schema of calendar transformation&#x20;
+2. Name: Name of calendar transformation&#x20;
+3. Date from: Calendar start date&#x20;
+4. Date to: Calendar end date&#x20;
+5. Date-to-ID function: Name of the macro which will transform a DateTime value to the key value of the calendar dimension. You can use this macro, for example, in the fact transformations to convert datetime fields into calendar dimension members.&#x20;
+6. Stars: You can select the data mart stars where the calendar transformation will be present
