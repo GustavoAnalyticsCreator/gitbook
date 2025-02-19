@@ -1,6 +1,6 @@
 # Wizards
 
-The Wizards in AnalyticsCreator provide a guided and efficient way to perform various tasks related to building and managing a data warehouse. Below is an overview of the 8 available wizards and their functions:
+The Wizards in AnalyticsCreator provide a guided and efficient way to perform various tasks related to building and managing a data warehouse. Below is an overview of the eight available wizards and their functions:
 
 #### **1.** [**DWH Wizard**](dwh-wizard.md)
 
@@ -70,4 +70,4 @@ The **Snapshot Transformation Wizard** is used to create snapshot transformation
 * Supports the creation of a single snapshot dimension in the data warehouse.
 * Configures schema, name, and assignment to data mart stars.
 
-By using these 8 wizards, AnalyticsCreator simplifies complex tasks, ensures consistency, and accelerates the development and management of a data warehouse.
+By using these eight wizards, AnalyticsCreator simplifies complex tasks, ensures consistency, and accelerates the development and management of a data warehouse.
