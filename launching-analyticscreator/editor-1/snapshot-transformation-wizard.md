@@ -1,10 +1,8 @@
 # Snapshot transformation wizard
 
-To create a snapshot transformation, select **“Add -> Snapshot Dimension”** from the diagram context menu.
-
-Snapshot transformation wizard will be opened.&#x20;
-
-Only one snapshot dimension can exist in the data warehouse.
+To create a snapshot transformation, the user should select **"Add" → "Snapshot Dimension"** from the diagram context menu. The **Snapshot Transformation Wizard** will open.\
+Only one snapshot dimension can exist in the data warehouse.\
+As shown in the image below:
 
 <figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 

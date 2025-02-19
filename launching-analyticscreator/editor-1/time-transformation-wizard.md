@@ -1,17 +1,19 @@
 # Time transformation wizard
 
-To create a time transformation, select **“Add -> Time Dimension”** from the diagram context menu.
+To create a time transformation, select **"Add" → "Time Dimension"** from the diagram context menu.
+
+As shown in the image below:
 
 <figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
-The **Time Transformation Wizard** will then open, allowing the configuration of a new time transformation.
+The **Time Transformation Wizard** will then open, allowing the user to configure a new time transformation.
 
 <figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-### Parameters:&#x20;
+#### **Parameters**:
 
-1. Schema: Schema of time transformation&#x20;
-2. Name: Name of time transformation
-3. Period (minutes): Period (in minutes) of time transformation&#x20;
-4. Time-to-ID function: Name of the macro which will transform a DateTime value to the key value of the time dimension. You can use this macro, for example, in the fact transformations to convert datetime fields into time dimension members.&#x20;
-5. Stars: You can select the data mart stars where the time transformation will be present
+1. **Schema**: The schema of the time transformation.
+2. **Name**: The name of the time transformation.
+3. **Period (Minutes)**: The period (in minutes) for the time transformation.
+4. **Time-to-ID Function**: The name of the macro that transforms a **DateTime** value into the key value for the time dimension. This macro can be used, for example, in fact transformations to convert **datetime** fields into time dimension members.
+5. **Stars**: The data mart stars where the time transformation will be included.
