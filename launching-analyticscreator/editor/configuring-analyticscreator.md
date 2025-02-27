@@ -20,9 +20,11 @@ layout:
 
 ### Provide the Login and Password that you received by e-mail from AnalyticsCreator
 
-{% embed url="https://cdn2.hubspot.net/hub/7543628/hubfs/image-png-2.png?height=952&name=image-png-2.png&width=1903" %}
 
-Click on the gear ![](https://cdn2.hubspot.net/hub/7543628/hubfs/image-png-3.png?width=35\&height=31\&name=image-png-3.png) button to access all the AnalyticsCreator user configuration settings.
+
+{% embed url="https://www.canva.com/design/DAGgOoIKkWc/zGD_L7IHuupl8VGvoser1w/view" %}
+Configuring AnalyticsCreator
+{% endembed %}
 
 ### **Minimum requirements**
 

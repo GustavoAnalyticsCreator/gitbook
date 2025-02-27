@@ -1,10 +1,11 @@
 # Transformation wizard
 
-Transformation wizard should be used to create new transformation. To start Transformation wizard you should use the object context menu “Add->Transformation” in the diagram:
+The **Transformation Wizard** should be used to create a new transformation. To start the **Transformation Wizard**, use the object context menu: **"Add" → "Transformation"** in the diagram.
 
 <figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
-The typical Transformation wizard window:
+**Typical Transformation Wizard Window**\
+Here is a typical **Transformation Wizard** window, as shown in the image below:
 
 <figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
@@ -101,12 +102,15 @@ Parameters:
    1. **No Defaults**: No predefined transformations are applied, typically used for fact transformations.
    2. **All Defaults**: All predefined transformations are applied, commonly used for dimension transformations.
    3. **Selected Defaults**: Specific predefined transformations can be chosen using the provided list boxes.
-3. Depending tables page:
+3. This page allows the user to manage the tables that depend on the current transformation. As shown in the image below:
 
 <figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
-This feature is relevant for the external transformations. Here you should add the tables which your transformation depends on.
+This feature is relevant for external transformations. Here, the user should add the tables that the transformation depends on.
 
-**Script Page**: This page is specifically for script transformations. It allows the entry of the SQL script that defines the transformation logic.
+**Script Page**\
+This page is specifically for script transformations. It allows the user to enter the SQL script that defines the transformation logic.
+
+As shown in the image below:
 
 <figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>

@@ -13,16 +13,10 @@
 ## Launching AnalyticsCreator
 
 * [Launching AnalyticsCreator](launching-analyticscreator/editor/README.md)
-  * [Configuring AnalyticsCreator](launching-analyticscreator/editor/configuring-analyticscreator.md)
   * [AnalyticsCreator Desktop Overview](launching-analyticscreator/editor/analyticscreator-desktop-overview.md)
-  * [AnalyticsCreator Desktop UI](launching-analyticscreator/editor/analyticscreator-desktop-ui/README.md)
-    * [Working area elements](launching-analyticscreator/editor/analyticscreator-desktop-ui/working-area-elements.md)
-    * [Advanced Features](launching-analyticscreator/editor/analyticscreator-desktop-ui/advanced-features.md)
-    * [Refresh source metadata](launching-analyticscreator/editor/analyticscreator-desktop-ui/refresh-source-metadata.md)
-    * [Handling](launching-analyticscreator/editor/analyticscreator-desktop-ui/handling.md)
-    * [Main operations](launching-analyticscreator/editor/analyticscreator-desktop-ui/main-operations.md)
-    * [Settings](launching-analyticscreator/editor/analyticscreator-desktop-ui/settings.md)
+  * [Configuring AnalyticsCreator](launching-analyticscreator/editor/configuring-analyticscreator.md)
   * [Working with AnalyticsCreator Desktop](launching-analyticscreator/editor/working-with-analyticscreator-desktop.md)
+  * [Advanced Features](launching-analyticscreator/editor/advanced-features.md)
 * [AnalyticsCreator Reference guide](launching-analyticscreator/editor-1/README.md)
   * [Connectors](launching-analyticscreator/editor-1/connectors.md)
   * [Sources](launching-analyticscreator/editor-1/sources.md)

@@ -1,7 +1,6 @@
 # Parameters
 
-AnalyticsCreator provides various parameters that can be modified to customize its functionality. To access the parameter settings page, navigate to **Help -> Parameters** in the toolbar.
-
+AnalyticsCreator provides various parameters that can be modified to customize its functionality. To access the parameter settings page, navigate to **Help → Parameters** in the toolbar.\
 Once the parameter settings page is open, use the **Search Criteria** field to locate specific parameters.
 
 <figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>

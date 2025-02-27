@@ -1,10 +1,10 @@
 # Manual transformation
 
-Manual transformation is a VIEW created manually.&#x20;
+A manual transformation is a **VIEW** that is created manually.
 
-1. VIEW: contains the manually created VIEW definition&#x20;
-2. Rename columns table: if you rename the column in the manually created VIEW, please enter the old and new column names into this table.
+* **VIEW**: Contains the manually created **VIEW** definition.
+* **Rename Columns Table**: If you rename a column in the manually created **VIEW**, enter the old and new column names into this table.
 
-There is a typical manual transformation definition:
+Below is a typical manual transformation definition:
 
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>

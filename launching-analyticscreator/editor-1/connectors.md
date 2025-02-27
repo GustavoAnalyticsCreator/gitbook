@@ -72,6 +72,7 @@ To encrypt your string, simply click on Options → Encrypted Strings → New.&#
 
 To use your encrypted strings in your sources, enclose the name you’ve created with # on both sides.&#x20;
 
-For example, if your DSN=DuckDB, the connection string will be #DuckDB#.
+For example, if your DSN=DuckDB, the connection string will be #DuckDB#
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+{% embed url="https://www.canva.com/design/DAGgT2DA3I8/igyQqQqwFilzIzIuYIRcDQ/view" %}
+
