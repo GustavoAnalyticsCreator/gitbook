@@ -6,6 +6,7 @@ The Interface Settings window is accessible within the software and provides opt
 
 **Tabs and Categories**
 
+* **Colors:** Settings that allow the user to customize the color properties of various visual elements within the interface, such as diagrams, navigation trees, and pages.
 * **Diagram**: Settings related to the visual properties of flow diagrams and other graphical elements.
 * **Navigation tree**: Settings for the tree structure navigation pane on the left side of the interface.
 * **Pages**: Settings for the layout and appearance of pages within the diagram or interface.
@@ -59,18 +60,38 @@ The Interface Settings window is accessible within the software and provides opt
 
 &#x20; Diagram
 
-1. **Arrow height:** A text field set to "4"
-2. **Font size**: A text field set to "8"
-3. **Border thickness**: A text field set to "0"
-4. **Cell height**: A text field set to "50"
-5. **Cell width**: A text field set to "200"
-6. **Header font size**: A text field set to "12"
-7. **Header height**: A text field set to "36"
-8. **Header width**: A text field set to "120"
-9. **Sub box height**: A text field set to "15"
-10. **Sub box width**: A text field set to "15"
-11. **Scale**: A text field set to "0.4"
-12. **Minor connector line opacity (%)**: A text field set to "100"
+1. **Arrow height:**&#x20;
+2. **Font size**:&#x20;
+3. **Border thickness**:&#x20;
+4. **Cell height**:&#x20;
+5. **Cell width**:&#x20;
+6. **Header font size**:&#x20;
+7. **Header height**:&#x20;
+8. **Header width**:&#x20;
+9. **Sub box height**:&#x20;
+10. **Sub box width**:&#x20;
+11. **Scale**:&#x20;
+12. **Minor connector line opacity (%)**:&#x20;
+
+Navigation Tree
+
+1. Icon size
+2. Line space
+3. Sacale
+4. Font size
+5. Splitter position
+
+Pages
+
+1. **Detail page horizontal alignment**: The options are Left, Center, Right and Strech.
+2. **Detail page vertical alignment**:  The options are Left, Center, Right and Strech.
+3. **Detail page max width**:
+4. **Detail page max height**:&#x20;
+5. **Table page horizontal alignment**: The options are Left, Center, Right and Strech
+6. **Table page vertical alignment**: The options are Left, Center, Right and Strech
+7. **Table page max width**:&#x20;
+8. **Table page max height**:&#x20;
+9. **FrameScale**:
 
 
 
