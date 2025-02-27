@@ -17,46 +17,45 @@ The Interface Settings window is accessible within the software and provides opt
 
 &#x20;**Colors**
 
-1. **Background and Foreground Colors**:
-   1. **Background arrow**: A color picker&#x20;
-   2. **Foreground arrow**: A color picker&#x20;
-   3. **Background text**: A color picker&#x20;
-   4. **Foreground text**: A color picker&#x20;
-   5. **Background dimension**: A color picker&#x20;
-   6. **Foreground dimension**: A color picker&#x20;
-   7. **Background external transformation**: A color picker
-   8. **Foreground external transformation**: A color picker
-   9. **Background fact**: A color picker
-   10. **Foreground fact**: A color picker&#x20;
-   11. **Background header**: A color picker&#x20;
-   12. **Foreground header**: A color picker&#x20;
-   13. **Background vault hub**: A color picker
-   14. **Foreground vault hub**: A color picker&#x20;
-   15. **Background vault link**: A color picker&#x20;
-   16. **Foreground vault link**: A color picker
-   17. **Background even column**: A color picker&#x20;
-   18. **Foreground even column**: A color picker&#x20;
-   19. **Background odd column**: A color picker&#x20;
-   20. **Foreground odd column**: A color picker&#x20;
-   21. **Background other object**: A color picker&#x20;
-   22. **Foreground other object**: A color picker&#x20;
-   23. **Background package**: A color picker&#x20;
-   24. **Foreground package**: A color picker&#x20;
-   25. **Background vault satellite**: A color picker&#x20;
-   26. **Foreground vault satellite**: A color picker
-   27. **Background script transformation**: A color picker
-   28. **Foreground script transformation**: A color picker&#x20;
-   29. **Background source**: A color picker&#x20;
-   30. **Foreground source**: A color picker&#x20;
-   31. **Background table**: A color picker&#x20;
-   32. **Foreground table**: A color picker&#x20;
-   33. **Background view**: A color picker
-   34. **Foreground view**: A color picker
-   35. **Border diagram**: A color picker&#x20;
-   36. **Border package**: A color picker&#x20;
-   37. **Border color**: A color picker
-   38. **Line color thin**: A color picker&#x20;
-   39. **Highlighter label**: A color picker&#x20;
+1. **Background arrow**: A color picker&#x20;
+2. **Foreground arrow**: A color picker&#x20;
+3. **Background text**: A color picker&#x20;
+4. **Foreground text**: A color picker&#x20;
+5. **Background dimension**: A color picker&#x20;
+6. **Foreground dimension**: A color picker&#x20;
+7. **Background external transformation**: A color picker
+8. **Foreground external transformation**: A color picker
+9. **Background fact**: A color picker
+10. **Foreground fact**: A color picker&#x20;
+11. **Background header**: A color picker&#x20;
+12. **Foreground header**: A color picker&#x20;
+13. **Background vault hub**: A color picker
+14. **Foreground vault hub**: A color picker&#x20;
+15. **Background vault link**: A color picker&#x20;
+16. **Foreground vault link**: A color picker
+17. **Background even column**: A color picker&#x20;
+18. **Foreground even column**: A color picker&#x20;
+19. **Background odd column**: A color picker&#x20;
+20. **Foreground odd column**: A color picker&#x20;
+21. **Background other object**: A color picker&#x20;
+22. **Foreground other object**: A color picker&#x20;
+23. **Background package**: A color picker&#x20;
+24. **Foreground package**: A color picker&#x20;
+25. **Background vault satellite**: A color picker&#x20;
+26. **Foreground vault satellite**: A color picker
+27. **Background script transformation**: A color picker
+28. **Foreground script transformation**: A color picker&#x20;
+29. **Background source**: A color picker&#x20;
+30. **Foreground source**: A color picker&#x20;
+31. **Background table**: A color picker&#x20;
+32. **Foreground table**: A color picker&#x20;
+33. **Background view**: A color picker
+34. **Foreground view**: A color picker
+35. **Border diagram**: A color picker&#x20;
+36. **Border package**: A color picker&#x20;
+37. **Border color**: A color picker
+38. **Line color thin**: A color picker&#x20;
+39. **Highlighter label**: A color picker&#x20;
 
 &#x20; Diagram
 
