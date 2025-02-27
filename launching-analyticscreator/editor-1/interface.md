@@ -15,96 +15,66 @@ The Interface Settings window is accessible within the software and provides opt
 * The window includes buttons labeled **Default 1**, **Default 2**, **Default 3**, **Cancel**, and **Save** at the bottom, allowing the user to reset to predefined configurations or apply/save changes.
 * A dropdown menu or filter at the top of the main interface (not in the settings window) allows the user to filter by groups or objects, but this is not part of the Interface Settings itself.
 
-&#x20;**Color Settings**
+&#x20;**Colors**
 
-* **Settings Available**:
-  * **Background and Foreground Colors**:
-    * **Background arrow**: A color picker (light gray, checkered pattern)
-    * **Foreground arrow**: A color picker (black)
-    * **Background text**: A color picker (light gray, checkered pattern)
-    * **Foreground text**: A color picker (black)
-    * **Background dimension**: A color picker (light cyan)
-    * **Foreground dimension**: A color picker (black)
-    * **Background external transformation**: A color picker (light orange)
-    * **Foreground external transformation**: A color picker (black)
-    * **Background fact**: A color picker (light orange)
-    * **Foreground fact**: A color picker (black)
-    * **Background header**: A color picker (light gray, checkered pattern)
-    * **Foreground header**: A color picker (black)
-    * **Background vault hub**: A color picker (light orange)
-    * **Foreground vault hub**: A color picker (black)
-    * **Background vault link**: A color picker (light red)
-    * **Foreground vault link**: A color picker (black)
-    * **Background even column**: A color picker (light gray, checkered pattern)
-    * **Foreground even column**: A color picker (black)
-    * **Background odd column**: A color picker (light gray, checkered pattern)
-    * **Foreground odd column**: A color picker (black)
-    * **Background other object**: A color picker (light gray, checkered pattern)
-    * **Foreground other object**: A color picker (black)
-    * **Background package**: A color picker (light gray, checkered pattern)
-    * **Foreground package**: A color picker (black)
-    * **Background vault satellite**: A color picker (light green)
-    * **Foreground vault satellite**: A color picker (black)
-    * **Background script transformation**: A color picker (light green)
-    * **Foreground script transformation**: A color picker (black)
-    * **Background source**: A color picker (light gray, checkered pattern)
-    * **Foreground source**: A color picker (black)
-    * **Background table**: A color picker (light gray, checkered pattern)
-    * **Foreground table**: A color picker (black)
-    * **Background view**: A color picker (light purple)
-    * **Foreground view**: A color picker (black)
-    * **Border diagram**: A color picker (light gray, checkered pattern)
-    * **Border package**: A color picker (black)
-    * **Border color**: A color picker (black)
-    * **Line color thin**: A color picker (black)
-    * **Highlighter label**: A color picker (light cyan)
+1. **Background and Foreground Colors**:
+   1. **Background arrow**: A color picker&#x20;
+   2. **Foreground arrow**: A color picker&#x20;
+   3. **Background text**: A color picker&#x20;
+   4. **Foreground text**: A color picker&#x20;
+   5. **Background dimension**: A color picker&#x20;
+   6. **Foreground dimension**: A color picker&#x20;
+   7. **Background external transformation**: A color picker
+   8. **Foreground external transformation**: A color picker
+   9. **Background fact**: A color picker
+   10. **Foreground fact**: A color picker&#x20;
+   11. **Background header**: A color picker&#x20;
+   12. **Foreground header**: A color picker&#x20;
+   13. **Background vault hub**: A color picker
+   14. **Foreground vault hub**: A color picker&#x20;
+   15. **Background vault link**: A color picker&#x20;
+   16. **Foreground vault link**: A color picker
+   17. **Background even column**: A color picker&#x20;
+   18. **Foreground even column**: A color picker&#x20;
+   19. **Background odd column**: A color picker&#x20;
+   20. **Foreground odd column**: A color picker&#x20;
+   21. **Background other object**: A color picker&#x20;
+   22. **Foreground other object**: A color picker&#x20;
+   23. **Background package**: A color picker&#x20;
+   24. **Foreground package**: A color picker&#x20;
+   25. **Background vault satellite**: A color picker&#x20;
+   26. **Foreground vault satellite**: A color picker
+   27. **Background script transformation**: A color picker
+   28. **Foreground script transformation**: A color picker&#x20;
+   29. **Background source**: A color picker&#x20;
+   30. **Foreground source**: A color picker&#x20;
+   31. **Background table**: A color picker&#x20;
+   32. **Foreground table**: A color picker&#x20;
+   33. **Background view**: A color picker
+   34. **Foreground view**: A color picker
+   35. **Border diagram**: A color picker&#x20;
+   36. **Border package**: A color picker&#x20;
+   37. **Border color**: A color picker
+   38. **Line color thin**: A color picker&#x20;
+   39. **Highlighter label**: A color picker&#x20;
 
-&#x20;**Size and Spacing Settings**
+&#x20; Diagram
 
-* **Window Title**: Interface Settings
-* **Tabs**: Diagram, Navigation tree, Pages (Diagram tab selected)
-* **Settings Available**:
-  * **Arrow height**: A text field set to "4"
-  * **Arrow width**: A text field set to "8"
-  * **Font size**: A text field set to "8"
-  * **Border thickness**: A text field set to "0"
-  * **Cell height**: A text field set to "50"
-  * **Cell width**: A text field set to "200"
-  * **Header font size**: A text field set to "12"
-  * **Header height**: A text field set to "36"
-  * **Header width**: A text field set to "120"
-  * **Sub box height**: A text field set to "15"
-  * **Sub box width**: A text field set to "15"
-  * **Scale**: A text field set to "0.4"
-  * **Minor connector line opacity (%)**: A text field set to "100"
+1. **Arrow height:** A text field set to "4"
+2. **Font size**: A text field set to "8"
+3. **Border thickness**: A text field set to "0"
+4. **Cell height**: A text field set to "50"
+5. **Cell width**: A text field set to "200"
+6. **Header font size**: A text field set to "12"
+7. **Header height**: A text field set to "36"
+8. **Header width**: A text field set to "120"
+9. **Sub box height**: A text field set to "15"
+10. **Sub box width**: A text field set to "15"
+11. **Scale**: A text field set to "0.4"
+12. **Minor connector line opacity (%)**: A text field set to "100"
 
-**Screenshot 4: General Interface Settings**
 
-* **Window Title**: Interface Settings
-* **Tabs**: Diagram, Navigation tree, Pages (Diagram tab selected)
-* **Settings Available**:
-  * **Icon size**: A text field set to "16"
-  * **Line space**: A text field set to "4"
-  * **Scale**: A text field set to "1.65"
-  * **Font size**: A text field set to "12"
-  * **Splitter position**: A text field set to "742"
 
-**Screenshot 5: Advanced Color Settings**
 
-* **Window Title**: Interface Settings
-* **Tabs**: Diagram, Navigation tree, Pages (Diagram tab selected)
-* **Settings Available**:
-  * **Background and Foreground Colors** (Advanced Mode):
-    * A color palette is displayed with a grid of available colors (standard and advanced options).
-    * The user can select from a wide range of colors for each background and foreground element (e.g., arrow, text, dimension, etc.).
-    * Options include **Standard Colors** and **Advanced** toggles, with a color grid for fine-tuning.
-    * Specific color selections match those in Screenshot 2, with the ability to choose from a broader palette.
 
-#### Usage Notes
-
-* The user can adjust these settings to customize the appearance of diagrams, navigation trees, and pages within the software.
-* Changes can be applied by clicking **Save**, or reverted to default configurations using **Default 1**, **Default 2**, or **Default 3**.
-* The **Cancel** button discards any unsaved changes.
-* The settings window includes a preview area (not editable in the screenshots) showing the current diagram layout, which updates based on the selected settings.
-
-This documentation provides a comprehensive overview of the Interface Settings for \[His/Her/Its Desktop Software Name], ensuring the user can understand and utilize the customization options effectively.
+####
