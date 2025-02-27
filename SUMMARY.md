@@ -18,6 +18,7 @@
   * [Working with AnalyticsCreator Desktop](launching-analyticscreator/editor/working-with-analyticscreator-desktop.md)
   * [Advanced Features](launching-analyticscreator/editor/advanced-features.md)
 * [AnalyticsCreator Reference guide](launching-analyticscreator/editor-1/README.md)
+  * [Interface](launching-analyticscreator/editor-1/interface.md)
   * [Connectors](launching-analyticscreator/editor-1/connectors.md)
   * [Sources](launching-analyticscreator/editor-1/sources.md)
   * [Refresh source metadata](launching-analyticscreator/editor-1/refresh-source-metadata.md)
