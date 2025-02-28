@@ -4,7 +4,7 @@ icon: table-list
 
 # Tables
 
-#### **Tables in AnalyticsCreator**
+**bles in AnalyticsCreator**
 
 A **table** represents a database **table** or **view** within the data warehouse, and each table belongs to a specific schema. Tables are created automatically when defining a data import, historization, or persisting process.&#x20;
 
@@ -12,9 +12,9 @@ A **table** represents a database **table** or **view** within the data warehous
 
 For most tables, several properties can be configured, including calculated columns, primary keys, identity columns, and indexes.
 
-There is the typical table definition:
-
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Edit  table</p></figcaption></figure>
+{% embed url="https://www.canva.com/design/DAGgZCNgD8Q/A9UnWtGq2-q7Ging4I_XbA/view" %}
+Demo Definitions
+{% endembed %}
 
 **Table Properties**:&#x20;
 
