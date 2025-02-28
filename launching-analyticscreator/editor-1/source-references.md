@@ -10,9 +10,9 @@ The N:1 relation, which refers to a "one field" to a "one primary key field" ref
 
 For more complex references, use "Source references."
 
-Below is a typical table reference definition:
+{% embed url="https://www.canva.com/design/DAGgVT4AOV8/5P3rIllCepfQaF5v50vyYA/view" %}
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
 
 **Inheritance of Source Relations Across DWH Layers**&#x20;
 

@@ -6,4 +6,5 @@ icon: stars
 
 Galaxy is a group of several stars. Each star should belong to a galaxy. Galaxy definition window:
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+{% embed url="https://www.canva.com/design/DAGgVURaV_Y/nwUNjH2kkrXMLTxoWefUxg/view" %}
+

@@ -8,9 +8,9 @@ icon: layer-group
 
 In a data warehouse, layers are a crucial aspect of its logical structure. Users have the ability to define a variety of layers which serve different purposes. Here, we will delve into the five primary types of layers typically used in a data warehouse architecture, explaining their functions and how they interconnect with each other.
 
-{% embed url="https://www.canva.com/design/DAGY03aazHw/sA6ZbaTvhw6IJXE9-E9fWg/view?utlId=hbb2a67e030&utm_campaign=designshare&utm_content=DAGY03aazHw&utm_medium=link2&utm_source=uniquelinks" %}
-Data Lineage View
-{% endembed %}
+{% embed url="https://www.canva.com/design/DAGgTXk77lc/q9lrz04AHmfbtfshTO1hfA/view" %}
+
+
 
 This configuration facilitates an efficient workflow, transforming raw data sources into insightful, user-accessible information.&#x20;
 
@@ -39,3 +39,4 @@ Within the Data Warehouse Layer, data undergoes organization into complex struct
 #### 6. Data Mart Layer (DM)
 
 The Data Mart Layer is positioned as an interface layer, representing a focal point for end-user access. Data is structured logically, often adopting a star schema with fact tables and dimensions, effectively supporting user queries and reports.
+

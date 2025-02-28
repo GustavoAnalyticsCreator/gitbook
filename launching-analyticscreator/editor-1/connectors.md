@@ -12,9 +12,9 @@ Connectors in AnalyticsCreator allow users to establish data source connections,
 
 To create or edit a connector, navigate through the toolbar menu:
 
-**Select** **Sources** -> **Connectors**
+{% embed url="https://www.canva.com/design/DAGgUyjpwqc/5b_049eoAFu2_pEiesGcXQ/view" %}
 
-{% embed url="https://www.canva.com/design/DAGY0qZnlJA/GksgltzpUrPpIexhggPHvw/view?utlId=h9e3db782a9&utm_campaign=designshare&utm_content=DAGY0qZnlJA&utm_medium=link2&utm_source=uniquelinks" %}
+
 
 ### Connectors define the data source logic.&#x20;
 
