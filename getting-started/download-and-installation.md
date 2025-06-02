@@ -1,5 +1,4 @@
 ---
-icon: globe-pointer
 noIndex: true
 layout:
   title:
@@ -17,7 +16,7 @@ layout:
 # Download and Installation
 
 1. **Access the Download Page**\
-   Navigate to the [AnalyticsCreator download page.](https://services.analyticscreator.com/AnalyticsCreator/publish.htm)\
+   Navigate to the [AnalyticsCreator download page.](https://services.analyticscreator.com/AnalyticsCreator64/publish.htm)\
 
 2. **Download the Installer**\
    Locate and download the installation file.\
