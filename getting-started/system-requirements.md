@@ -1,18 +1,6 @@
 ---
-icon: bullseye-arrow
 description: The Analytics Creator Installation
 noIndex: true
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # System Requirements
@@ -37,5 +25,5 @@ Port 443 is the **standard HTTPS port for secured transactions.** It is used for
   * **Azure SQL:** &#x20;
     * Managed Instance
   * **On Premises**&#x20;
-    * Supported editions include Express, Standard, and Enterprise from Microsoft SQL Server 2016 onward.\
+    * Supported editions include Express, Standard, and Enterprise from Microsoft SQL Server 2012 onward.\
       &#xNAN;_&#x41;nalyticsCreator utilizes SQL Server to store project data, so it is essential to have a compatible version installed before continuing._
